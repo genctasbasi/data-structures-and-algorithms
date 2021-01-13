@@ -3,6 +3,9 @@ package solutions.leetcode.hard
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
+/**
+ * https://leetcode.com/problems/median-of-two-sorted-arrays/
+ */
 class MedianOfTwoSortedArrays {
 
     @Test

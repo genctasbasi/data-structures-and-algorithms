@@ -107,18 +107,23 @@ https://leetcode.com/problemset/all/
 * `@Test` TwoSum
 * `@Test` ReverseInteger
 * `@Test` ClimbingStairs
-* `@Test` IsPalindromeNumber
+* `@Test` PalindromeNumber
 * `@Test` DivisorGame
+* `@Test` WIP: BestTimeToBuyAndSellStock
 
 ### Medium problems
 * `@Test` AddTwoNumbers
 * `@Test` LongestSubstringWithoutRepeatingCharacters
 * `@Test` LongestPalindromicSubstring
 * `@Test` ZigZagConversion
-* `@Test` Atoi
+* `@Test` StringToInteger
+* `@Test` ContainerWithMostWater
+* `@Test` IntegerToRoman
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
+* `@Test` WIP: RegularExpressionMatching
+* `@Test` TrappingRainWater
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit

@@ -6,7 +6,7 @@ import org.junit.Test
 /**
  * https://leetcode.com/problems/palindrome-number/
  */
-class IsPalindromeNumber {
+class PalindromeNumber {
 
     @Test
     fun test() {

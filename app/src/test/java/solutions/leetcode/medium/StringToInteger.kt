@@ -6,7 +6,7 @@ import org.junit.Test
 /**
  * https://leetcode.com/problems/string-to-integer-atoi/
  */
-class Atoi {
+class StringToInteger {
 
     @Test
     fun test() {
