@@ -100,6 +100,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` CalendarMatching
 * `@Test` MergeSort
 * `@Test` MergeSortedArrays
+* `@Test` MaxProfitWithKTransactions
 
 ## Package 2: Leetcode.com
 https://leetcode.com/problemset/all/
@@ -109,7 +110,9 @@ https://leetcode.com/problemset/all/
 * `@Test` ClimbingStairs
 * `@Test` PalindromeNumber
 * `@Test` DivisorGame
-* `@Test` WIP: BestTimeToBuyAndSellStock
+* `@Test` BestTimeToBuyAndSellStock
+* `@Test` BestTimeToBuyAndSellStockMultiple
+* `@Test` BestTimeToBuyAndSellStockKTransactions
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -122,7 +125,7 @@ https://leetcode.com/problemset/all/
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
-* `@Test` WIP: RegularExpressionMatching
+* `@Test` RegularExpressionMatching (WIP)
 * `@Test` TrappingRainWater
 
 ## Package 3: hackerRank
