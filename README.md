@@ -112,6 +112,7 @@ https://leetcode.com/problemset/all/
 * `@Test` DivisorGame
 * `@Test` BestTimeToBuyAndSellStock
 * `@Test` BestTimeToBuyAndSellStockMultiple
+* `@Test` BestTimeToBuyAndSellStock2Transactions
 * `@Test` BestTimeToBuyAndSellStockKTransactions
 
 ### Medium problems

@@ -4,26 +4,26 @@ import org.junit.Assert
 import org.junit.Test
 
 /**
- * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
  */
-class BestTimeToBuyAndSellStockKTransactions {
+class BestTimeToBuyAndSellStock2Transactions {
 
     @Test
     fun test() {
-        val result = maxProfit(2, intArrayOf(3, 3, 5, 0, 0, 3, 1, 4))
+        val result = maxProfit(intArrayOf(3, 3, 5, 0, 0, 3, 1, 4))
         Assert.assertEquals(6, result)
     }
 
     var previousMaxProfit: Int? = null
 
-    fun maxProfit(k: Int, prices: IntArray): Int {
+    fun maxProfit(prices: IntArray): Int {
 
         if (prices.size < 2) return 0
 
         val profits = Array(prices.size) { 0 }
         val profitsPrev = Array(prices.size) { 0 }
 
-        for (trans in 1..k) {
+        for (trans in 1..2) {
             prices.forEachIndexed { index, it ->
 
                 val yesterdaysProfit = if (index == 0) 0 else profits[index - 1]
