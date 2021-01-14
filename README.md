@@ -113,6 +113,8 @@ https://leetcode.com/problemset/all/
 * `@Test` BestTimeToBuyAndSellStock
 * `@Test` BestTimeToBuyAndSellStockMultiple
 * `@Test` RomanToInteger
+* `@Test` ValidParentheses
+* `@Test` MergeTwoSortedLists
 
 ### Medium problems
 * `@Test` AddTwoNumbers
