@@ -1,9 +1,34 @@
 package solutions.leetcode.medium
 
+import org.junit.Assert
+import org.junit.Test
+
 /**
  * https://leetcode.com/problems/add-two-numbers/
  */
 class AddTwoNumbers {
+
+    @Test
+    fun test() {
+        val listNode2 = ListNode(2)
+        val listNode4 = ListNode(4)
+        val listNode3 = ListNode(3)
+
+        listNode2.next = listNode4
+        listNode4.next = listNode3
+
+        val listNode5 = ListNode(5)
+        val listNode6 = ListNode(6)
+        val listNode4_2 = ListNode(4)
+
+        listNode5.next = listNode6
+        listNode6.next = listNode4_2
+
+        val result = addTwoNumbers(listNode2, listNode5)
+        Assert.assertEquals(result?.`val`, 7)
+        Assert.assertEquals(result?.next?.`val`, 0)
+        Assert.assertEquals(result?.next?.next?.`val`, 8)
+    }
 
     class ListNode(var `val`: Int) {
         var next: ListNode? = null
