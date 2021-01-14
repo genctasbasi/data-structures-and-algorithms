@@ -1,4 +1,4 @@
-package solutions.leetcode
+package solutions
 
 import junit.framework.TestCase.assertEquals
 import org.junit.Test

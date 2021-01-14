@@ -112,8 +112,7 @@ https://leetcode.com/problemset/all/
 * `@Test` DivisorGame
 * `@Test` BestTimeToBuyAndSellStock
 * `@Test` BestTimeToBuyAndSellStockMultiple
-* `@Test` BestTimeToBuyAndSellStock2Transactions
-* `@Test` BestTimeToBuyAndSellStockKTransactions
+* `@Test` RomanToInteger
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -128,6 +127,9 @@ https://leetcode.com/problemset/all/
 * `@Test` MedianOfTwoSortedArrays
 * `@Test` RegularExpressionMatching (WIP)
 * `@Test` TrappingRainWater
+* `@Test` BestTimeToBuyAndSellStock: (2 transactions)
+* `@Test` BestTimeToBuyAndSellStock (k Transactions)
+* `@Test` LongestValidParentheses
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
