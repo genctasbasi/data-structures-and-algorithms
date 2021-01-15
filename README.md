@@ -124,7 +124,8 @@ https://leetcode.com/problemset/all/
 * `@Test` StringToInteger
 * `@Test` ContainerWithMostWater
 * `@Test` IntegerToRoman
-* `@Test` BinarySearchTreeToGreaterSumTree (WIP)
+* `@Test` BinarySearchTreeToGreaterSumTree
+* `@Test` ThreeSum
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays

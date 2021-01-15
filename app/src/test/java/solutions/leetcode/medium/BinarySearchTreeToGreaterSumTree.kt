@@ -52,9 +52,49 @@ class BinarySearchTreeToGreaterSumTree {
         var right: TreeNode? = null
     }
 
-    fun bstToGst(root: TreeNode?): TreeNode? {
+    fun bstToGst(node: TreeNode?): TreeNode? {
+        if (node == null) return node
+        val parentSum = bstToGst2Helper(node.right, 0)
+        node.`val` += parentSum
 
+        bstToGst2Helper(node.left, node.`val`)
+        return node
+    }
 
-        return null
+    private fun bstToGst2Helper(node: TreeNode?, parentSum: Int): Int {
+
+        if (node == null) return 0
+
+        val sum = bstToGst2Helper(node.right, parentSum)
+        val leftSum = getSum(node.left)
+        node.`val` += (sum + parentSum)
+
+        bstToGst2Helper(node.left, node.`val`)
+
+        return node.`val` - parentSum + leftSum
+    }
+
+    private fun getSum(node: TreeNode?): Int {
+        if (node == null) return 0
+
+        val sumRight = getSum(node.right)
+        val sumLeft = getSum(node.left)
+
+        return sumRight + sumLeft + node.`val`
+    }
+
+    /**
+     * This below is someone else's solution
+     */
+
+    var sum = 0
+
+    fun bstToGstCodility(node: TreeNode?): TreeNode? {
+        if (node == null) return node
+        bstToGst(node.right)
+        sum += node.`val`
+        node.`val` = sum
+        bstToGst(node.left)
+        return node
     }
 }
