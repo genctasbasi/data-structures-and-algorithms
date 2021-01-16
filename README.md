@@ -101,6 +101,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` MergeSort
 * `@Test` MergeSortedArrays
 * `@Test` MaxProfitWithKTransactions
+* `@Test` RightSmallerThan
 
 ## Package 2: Leetcode.com
 https://leetcode.com/problemset/all/
@@ -115,6 +116,7 @@ https://leetcode.com/problemset/all/
 * `@Test` RomanToInteger
 * `@Test` ValidParentheses
 * `@Test` MergeTwoSortedLists
+* `@Test` FindTheTownJudge
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -126,6 +128,7 @@ https://leetcode.com/problemset/all/
 * `@Test` IntegerToRoman
 * `@Test` BinarySearchTreeToGreaterSumTree
 * `@Test` ThreeSum
+* `@Test` ValidateBinarySearchTree
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -134,6 +137,7 @@ https://leetcode.com/problemset/all/
 * `@Test` BestTimeToBuyAndSellStock: (2 transactions)
 * `@Test` BestTimeToBuyAndSellStock (k Transactions)
 * `@Test` LongestValidParentheses
+* `@Test` MaximumSumBSTInBinaryTree (WIP)
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
@@ -141,6 +145,7 @@ Kotlin implementation of Hacker Rank interview preparation kit
 ### Algorithms Challenges
 https://www.hackerrank.com/domains/algorithms
 * `@Test` BetweenTwoSets
+* `@Test` MinimumDistances
 
 ### Array Challenges
 https://www.hackerrank.com/interview/interview-preparation-kit/arrays/challenges
