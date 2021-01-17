@@ -117,6 +117,7 @@ https://leetcode.com/problemset/all/
 * `@Test` ValidParentheses
 * `@Test` MergeTwoSortedLists
 * `@Test` FindTheTownJudge
+* `@Test` RomanToInteger
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -129,6 +130,8 @@ https://leetcode.com/problemset/all/
 * `@Test` BinarySearchTreeToGreaterSumTree
 * `@Test` ThreeSum
 * `@Test` ValidateBinarySearchTree
+* `@Test` LetterCombinationsOfAPhoneNumber
+* `@Test` FourSum
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
