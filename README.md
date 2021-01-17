@@ -192,3 +192,7 @@ The exercises of the book 'Cracking the coding interview' by Gayle Laakmann McDo
 * `@Test` PalindromePermutation
 * `@Test` OneAway
 * `@Test` StringCompression
+
+## Package 5: other
+Exercises from unknown sources
+* `@Test` SeparateZeros

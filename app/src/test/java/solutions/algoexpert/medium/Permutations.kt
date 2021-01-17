@@ -11,7 +11,7 @@ class Permutations {
     @Test
     fun test() {
 
-        val permutations = getPermutations(listOf(1, 2, 3,4,5))
+        val permutations = getPermutations(listOf(1, 2, 3))
         val expected = listOf(
             listOf(1, 2, 3),
             listOf(1, 3, 2),
@@ -26,7 +26,7 @@ class Permutations {
 
     fun getPermutations(array: List<Int>): List<List<Int>> {
 
-        if(array.isEmpty()) return listOf()
+        if (array.isEmpty()) return listOf()
         if (array.size == 1) return listOf(array)
 
         val firstElement = array[0]

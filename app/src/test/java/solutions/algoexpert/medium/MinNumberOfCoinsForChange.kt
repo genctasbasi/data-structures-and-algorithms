@@ -10,21 +10,15 @@ class MinNumberOfCoinsForChange {
 
     @Test
     fun testCase1() {
-
         val n = 37
-
         val denoms = listOf(1, 5, 10)
-
         Assert.assertEquals(6, minNumberOfCoinsForChange(n, denoms))
     }
 
     @Test
     fun testCase2() {
-
         val n = 9
-
         val denoms = listOf(3, 5)
-
         Assert.assertEquals(3, minNumberOfCoinsForChange(n, denoms))
     }
 
