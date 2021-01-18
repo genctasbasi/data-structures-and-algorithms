@@ -118,6 +118,8 @@ https://leetcode.com/problemset/all/
 * `@Test` MergeTwoSortedLists
 * `@Test` FindTheTownJudge
 * `@Test` RomanToInteger
+* `@Test` RemoveElement
+* `@Test` RemoveDuplicatesFromSortedArray
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -132,6 +134,7 @@ https://leetcode.com/problemset/all/
 * `@Test` ValidateBinarySearchTree
 * `@Test` LetterCombinationsOfAPhoneNumber
 * `@Test` FourSum
+* `@Test` SwapNodesInPairs
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
