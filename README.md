@@ -147,6 +147,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LongestValidParentheses
 * `@Test` MaximumSumBSTInBinaryTree (WIP)
 * `@Test` MergeKSortedLists
+* `@Test` SubstringWithConcatenationOfAllWords
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
