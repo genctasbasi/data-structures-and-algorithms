@@ -120,6 +120,7 @@ https://leetcode.com/problemset/all/
 * `@Test` RomanToInteger
 * `@Test` RemoveElement
 * `@Test` RemoveDuplicatesFromSortedArray
+* `@Test` ImplementStrStr
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -135,6 +136,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LetterCombinationsOfAPhoneNumber
 * `@Test` FourSum
 * `@Test` SwapNodesInPairs
+* `@Test` SearchInRotatedSortedArray
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -144,6 +146,7 @@ https://leetcode.com/problemset/all/
 * `@Test` BestTimeToBuyAndSellStock (k Transactions)
 * `@Test` LongestValidParentheses
 * `@Test` MaximumSumBSTInBinaryTree (WIP)
+* `@Test` MergeKSortedLists
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
