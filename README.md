@@ -121,6 +121,8 @@ https://leetcode.com/problemset/all/
 * `@Test` RemoveElement
 * `@Test` RemoveDuplicatesFromSortedArray
 * `@Test` ImplementStrStr
+* `@Test` FindFirstAndLastPositionOfElementInSortedArray
+* `@Test` SearchInsertPosition
 
 ### Medium problems
 * `@Test` AddTwoNumbers
