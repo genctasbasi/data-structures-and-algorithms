@@ -22,6 +22,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` PalindromeCheck
 * `@Test` CaesarCipherEncryptor
 * `@Test` RunLengthEncoding
+* `@Test` MinimumWaitingTime
 
 ### Medium problems
 * `@Test` ThreeNumberSum

@@ -5,6 +5,9 @@ import org.junit.Test
 
 /**
  * https://leetcode.com/problems/powx-n/
+ *
+ * Well that's obviously a O(n) for the worst case. However it can be O(log(n)) if
+ * once we find how many halves we need to have.
  */
 class PowXN {
 
