@@ -102,6 +102,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` MergeSortedArrays
 * `@Test` MaxProfitWithKTransactions
 * `@Test` RightSmallerThan
+* `@Test` WaterfallStreams
 
 ## Package 2: Leetcode.com
 https://leetcode.com/problemset/all/
