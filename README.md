@@ -140,6 +140,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FourSum
 * `@Test` SwapNodesInPairs
 * `@Test` SearchInRotatedSortedArray
+* `@Test` PowXN
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
