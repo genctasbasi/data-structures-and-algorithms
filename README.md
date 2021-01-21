@@ -142,6 +142,9 @@ https://leetcode.com/problemset/all/
 * `@Test` SwapNodesInPairs
 * `@Test` SearchInRotatedSortedArray
 * `@Test` PowXN
+* `@Test` GroupAnagrams
+* `@Test` Permutations
+* `@Test` PermutationsUnique
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
