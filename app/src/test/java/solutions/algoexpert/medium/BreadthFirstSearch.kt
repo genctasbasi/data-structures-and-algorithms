@@ -40,7 +40,7 @@ class BreadthFirstSearch {
 
         fun breadthFirstSearch(): List<String> {
 
-            val queue = java.util.LinkedList<Node>()
+            val queue: Queue<Node> = LinkedList<Node>()
             queue.add(this)
 
             while (queue.isNotEmpty()) {
