@@ -104,6 +104,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` MaxProfitWithKTransactions
 * `@Test` RightSmallerThan
 * `@Test` WaterfallStreams
+* `@Test` LRUCache
 
 ## Package 2: Leetcode.com
 https://leetcode.com/problemset/all/
@@ -145,6 +146,7 @@ https://leetcode.com/problemset/all/
 * `@Test` GroupAnagrams
 * `@Test` Permutations
 * `@Test` PermutationsUnique
+* `@Test` RotateImage
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
