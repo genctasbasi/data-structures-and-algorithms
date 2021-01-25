@@ -126,6 +126,9 @@ https://leetcode.com/problemset/all/
 * `@Test` ImplementStrStr
 * `@Test` FindFirstAndLastPositionOfElementInSortedArray
 * `@Test` SearchInsertPosition
+* `@Test` RansomNote
+* `@Test` SummaryRanges
+* `@Test` RelativeRanks
 
 ### Medium problems
 * `@Test` AddTwoNumbers
