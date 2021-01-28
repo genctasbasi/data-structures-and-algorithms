@@ -59,6 +59,8 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` ArrayOfProducts
 * `@Test` BinaryTreeDiameter
 * `@Test` ThreeNumberSort
+* `@Test` FirstDuplicateValue
+* `@Test` FindSuccessor
 
 ### Hard problems
 * `@Test` FourNumberSum
@@ -129,6 +131,10 @@ https://leetcode.com/problemset/all/
 * `@Test` RansomNote
 * `@Test` SummaryRanges
 * `@Test` RelativeRanks
+* `@Test` MaximumSubarray
+* `@Test` RangeSumQuery
+* `@Test` IsSubsequence
+* `@Test` MinCostClimbingStairs
 
 ### Medium problems
 * `@Test` AddTwoNumbers
