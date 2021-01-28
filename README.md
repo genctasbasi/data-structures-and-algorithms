@@ -61,6 +61,9 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` ThreeNumberSort
 * `@Test` FirstDuplicateValue
 * `@Test` FindSuccessor
+* `@Test` PhoneNumberMnemonics
+* `@Test` TaskAssignment
+* `@Test` RemoveIslands
 
 ### Hard problems
 * `@Test` FourNumberSum
