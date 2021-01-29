@@ -63,7 +63,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` FindSuccessor
 * `@Test` PhoneNumberMnemonics
 * `@Test` TaskAssignment
-* `@Test` RemoveIslands
+* `@Test` SunsetViews
 
 ### Hard problems
 * `@Test` FourNumberSum

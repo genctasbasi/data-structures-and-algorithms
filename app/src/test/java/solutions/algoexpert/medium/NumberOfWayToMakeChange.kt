@@ -4,7 +4,7 @@ import org.junit.Assert
 import org.junit.Test
 
 /**
- * https://www.algoexpert.io/questions/Max%20Subset%20Sum%20No%20Adjacent
+ * https://www.algoexpert.io/questions/Number%20Of%20Ways%20To%20Make%20Change
  */
 class NumberOfWayToMakeChange {
 
