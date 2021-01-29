@@ -64,6 +64,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` PhoneNumberMnemonics
 * `@Test` TaskAssignment
 * `@Test` SunsetViews
+* `@Test` ValidIPAddress
 
 ### Hard problems
 * `@Test` FourNumberSum
