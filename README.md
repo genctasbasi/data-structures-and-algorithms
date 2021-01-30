@@ -160,6 +160,8 @@ https://leetcode.com/problemset/all/
 * `@Test` Permutations
 * `@Test` PermutationsUnique
 * `@Test` RotateImage
+* `@Test` MaximumPointsYouCanObtainFromCards
+* `@Test` ArithmeticSlices
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
