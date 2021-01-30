@@ -65,6 +65,8 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` TaskAssignment
 * `@Test` SunsetViews
 * `@Test` ValidIPAddress
+* `@Test` RemoveIslands (BFS)
+* `@Test` RemoveIslands (DFS)
 
 ### Hard problems
 * `@Test` FourNumberSum
