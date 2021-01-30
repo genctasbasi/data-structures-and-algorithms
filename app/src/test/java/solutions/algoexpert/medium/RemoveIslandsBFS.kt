@@ -8,7 +8,7 @@ import java.util.*
  * https://www.algoexpert.io/questions/Remove%20Islands
  *
  */
-class RemoveIslands {
+class RemoveIslandsBFS {
 
     @Test
     fun testCase1() {
