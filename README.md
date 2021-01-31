@@ -141,6 +141,8 @@ https://leetcode.com/problemset/all/
 * `@Test` RangeSumQuery
 * `@Test` IsSubsequence
 * `@Test` MinCostClimbingStairs
+* `@Test` LoggerRateLimiter
+* `@Test` FibonacciNumber
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -164,6 +166,7 @@ https://leetcode.com/problemset/all/
 * `@Test` RotateImage
 * `@Test` MaximumPointsYouCanObtainFromCards
 * `@Test` ArithmeticSlices
+* `@Test` WordSearch
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays

@@ -72,7 +72,6 @@ class BoggleBoard {
 
         val finalWords = mutableSetOf<String>()
         val visitedNodes = mutableMapOf<String, Boolean>()  // key is row(dot)column i.e. 3.2
-        val touchedNodes = mutableMapOf<String, Boolean>()  // key is row(dot)column i.e. 3.2
 
         words.forEach { word ->
             buildTrie(rootTrieNode, word)
@@ -85,7 +84,6 @@ class BoggleBoard {
                     j,
                     board,
                     visitedNodes,
-                    touchedNodes,
                     rootTrieNode,
                     rootTrieNode,
                     finalWords
@@ -101,14 +99,10 @@ class BoggleBoard {
         j: Int,
         board: List<List<Char>>,
         visitedNodes: MutableMap<String, Boolean>,
-        touchedNodes: MutableMap<String, Boolean>,
         trieRoot: TrieNode,
         trieNode: TrieNode,
         finalWords: MutableSet<String>
     ) {
-
-        touchedNodes["$i.$j"] = true  // this is being visited now
-
         if (visitedNodes["$i.$j"] == true)
             return
 
@@ -128,7 +122,6 @@ class BoggleBoard {
                 pair.second,
                 board,
                 visitedNodes,
-                touchedNodes,
                 trieRoot,
                 currentTrieNode,
                 finalWords
