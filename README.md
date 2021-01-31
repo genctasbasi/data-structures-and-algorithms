@@ -167,6 +167,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MaximumPointsYouCanObtainFromCards
 * `@Test` ArithmeticSlices
 * `@Test` WordSearch
+* `@Test` LRUCache
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
