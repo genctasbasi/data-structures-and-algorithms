@@ -179,6 +179,8 @@ https://leetcode.com/problemset/all/
 * `@Test` MaximumSumBSTInBinaryTree (WIP)
 * `@Test` MergeKSortedLists
 * `@Test` SubstringWithConcatenationOfAllWords
+* `@Test` LFUCache - O(n) put()
+* `@Test` LFUCacheOptimized - O(1) put()
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
