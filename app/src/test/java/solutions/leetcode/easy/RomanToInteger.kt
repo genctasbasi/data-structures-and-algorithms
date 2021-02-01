@@ -1,5 +1,6 @@
 package solutions.leetcode.easy
 
+import junit.framework.TestCase.assertEquals
 import org.junit.Assert
 import org.junit.Test
 
@@ -11,31 +12,31 @@ class RomanToInteger {
     @Test
     fun test() {
         val result = romanToInt("LVIII")
-        Assert.assertEquals(58, result)
+        assertEquals(58, result)
     }
 
     @Test
     fun test2() {
         val result = romanToInt("III")
-        Assert.assertEquals(3, result)
+        assertEquals(3, result)
     }
 
     @Test
     fun test3() {
         val result = romanToInt("MCMXCIV")
-        Assert.assertEquals(1994, result)
+        assertEquals(1994, result)
     }
 
     @Test
     fun test4() {
         val result = romanToInt("IV")
-        Assert.assertEquals(4, result)
+        assertEquals(4, result)
     }
 
     @Test
     fun test5() {
         val result = romanToInt("IX")
-        Assert.assertEquals(9, result)
+        assertEquals(9, result)
     }
 
     fun romanToInt(s: String): Int {

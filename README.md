@@ -143,6 +143,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MinCostClimbingStairs
 * `@Test` LoggerRateLimiter
 * `@Test` FibonacciNumber
+* `@Test` MovingAverageFromDataStream
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -168,6 +169,7 @@ https://leetcode.com/problemset/all/
 * `@Test` ArithmeticSlices
 * `@Test` WordSearch
 * `@Test` LRUCache
+* `@Test` RandomPickWithWeight
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays

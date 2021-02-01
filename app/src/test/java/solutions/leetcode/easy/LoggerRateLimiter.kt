@@ -1,6 +1,6 @@
 package solutions.leetcode.easy
 
-import org.junit.Assert
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 /**
@@ -12,12 +12,12 @@ class LoggerRateLimiter {
     fun test() {
 
         val logger = Logger()
-        Assert.assertEquals(true, logger.shouldPrintMessage(1, "foo"))
-        Assert.assertEquals(true, logger.shouldPrintMessage(2, "bar"))
-        Assert.assertEquals(false, logger.shouldPrintMessage(3, "foo"))
-        Assert.assertEquals(false, logger.shouldPrintMessage(8, "bar"))
-        Assert.assertEquals(false, logger.shouldPrintMessage(10, "foo"))
-        Assert.assertEquals(true, logger.shouldPrintMessage(11, "foo"))
+        assertEquals(true, logger.shouldPrintMessage(1, "foo"))
+        assertEquals(true, logger.shouldPrintMessage(2, "bar"))
+        assertEquals(false, logger.shouldPrintMessage(3, "foo"))
+        assertEquals(false, logger.shouldPrintMessage(8, "bar"))
+        assertEquals(false, logger.shouldPrintMessage(10, "foo"))
+        assertEquals(true, logger.shouldPrintMessage(11, "foo"))
     }
 
     class Logger() {
