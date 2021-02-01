@@ -170,6 +170,7 @@ https://leetcode.com/problemset/all/
 * `@Test` WordSearch
 * `@Test` LRUCache
 * `@Test` RandomPickWithWeight
+* `@Test` MaxAreaOfIsland
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
