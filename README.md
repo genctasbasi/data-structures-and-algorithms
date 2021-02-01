@@ -184,6 +184,7 @@ https://leetcode.com/problemset/all/
 * `@Test` SubstringWithConcatenationOfAllWords
 * `@Test` LFUCache - O(n) put()
 * `@Test` LFUCacheOptimized - O(1) put()
+* `@Test` RobotRoomCleaner
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
