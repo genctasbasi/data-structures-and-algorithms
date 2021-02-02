@@ -171,6 +171,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LRUCache
 * `@Test` RandomPickWithWeight
 * `@Test` MaxAreaOfIsland
+* `@Test` ClosedIslands
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
