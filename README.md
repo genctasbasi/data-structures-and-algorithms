@@ -172,6 +172,8 @@ https://leetcode.com/problemset/all/
 * `@Test` RandomPickWithWeight
 * `@Test` MaxAreaOfIsland
 * `@Test` ClosedIslands
+* `@Test` LongestStringChain
+* `@Test` ValidateStackSequences
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -240,6 +242,7 @@ The exercises of the book 'Cracking the coding interview' by Gayle Laakmann McDo
 * `@Test` PalindromePermutation
 * `@Test` OneAway
 * `@Test` StringCompression
+* `@Test` WeekCount
 
 ## Package 5: other
 Exercises from unknown sources
