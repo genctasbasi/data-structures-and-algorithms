@@ -2,6 +2,7 @@ package solutions.leetcode.hard
 
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
+import java.util.*
 
 /**
  * https://leetcode.com/problems/find-median-from-data-stream/
@@ -19,7 +20,7 @@ class MedianFinder {
         medianFinder.addNum(2)
         assertEquals(1.5, medianFinder.findMedian())
         medianFinder.addNum(3)
-        assertEquals(2, medianFinder.findMedian())
+        assertEquals(2.0, medianFinder.findMedian())
     }
 
     @Test
@@ -43,9 +44,34 @@ class MedianFinder {
 
     class MedianFinder {
 
+        private val small: PriorityQueue<Int> = PriorityQueue(Collections.reverseOrder())
+        private val large: PriorityQueue<Int> = PriorityQueue()
+
+        fun addNum(num: Int) {
+
+            if (small.size <= large.size) {
+                large.offer(num)
+                small.offer(large.remove())
+            } else {
+                small.offer(num)
+                large.offer(small.remove())
+            }
+        }
+
+        fun findMedian(): Double {
+            return if (small.size == large.size) {
+                (small.peek().toDouble() + large.peek()) / 2
+            } else
+                small.peek().toDouble()
+        }
+    }
+
+    class MedianFinderWithList {
+
         val list = mutableListOf<Int>()
 
         fun addNum(num: Int) {
+
             if (list.isEmpty()) {
                 list.add(num)
                 return
