@@ -174,6 +174,7 @@ https://leetcode.com/problemset/all/
 * `@Test` ClosedIslands
 * `@Test` LongestStringChain
 * `@Test` ValidateStackSequences
+* `@Test` MyCalendar
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
