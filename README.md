@@ -144,6 +144,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LoggerRateLimiter
 * `@Test` FibonacciNumber
 * `@Test` MovingAverageFromDataStream
+* `@Test` EmployeeImportance
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -175,6 +176,8 @@ https://leetcode.com/problemset/all/
 * `@Test` LongestStringChain
 * `@Test` ValidateStackSequences
 * `@Test` MyCalendar
+* `@Test` ExpressiveWords
+* `@Test` HandOfStraights
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
