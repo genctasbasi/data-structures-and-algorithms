@@ -178,6 +178,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MyCalendar
 * `@Test` ExpressiveWords
 * `@Test` HandOfStraights
+* `@Test` TwoKeysKeyboard
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
