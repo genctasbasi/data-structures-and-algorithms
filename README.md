@@ -193,6 +193,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LFUCacheOptimized - O(1) put()
 * `@Test` RobotRoomCleaner
 * `@Test` MedianFinder - O(n)
+* `@Test` SlidingWindowMaximum
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
