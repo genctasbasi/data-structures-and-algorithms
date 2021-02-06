@@ -180,6 +180,7 @@ https://leetcode.com/problemset/all/
 * `@Test` HandOfStraights
 * `@Test` TwoKeysKeyboard
 * `@Test` AlphabetBoardPath
+* `@Test` FindAndReplaceInString
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -196,6 +197,7 @@ https://leetcode.com/problemset/all/
 * `@Test` RobotRoomCleaner
 * `@Test` MedianFinder - O(n)
 * `@Test` SlidingWindowMaximum
+* `@Test` LongestContinuousSubArray - With Heap (O(nlog(n)))
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
