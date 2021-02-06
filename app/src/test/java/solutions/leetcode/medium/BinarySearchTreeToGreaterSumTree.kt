@@ -1,5 +1,6 @@
 package solutions.leetcode.medium
 
+import junit.framework.TestCase.assertEquals
 import org.junit.Assert
 import org.junit.Test
 
@@ -35,16 +36,16 @@ class BinarySearchTreeToGreaterSumTree {
         node7.right = node8
 
         val result = bstToGst(node4)
-        Assert.assertEquals(30, result?.`val`)
-        Assert.assertEquals(36, result?.left?.`val`)
-        Assert.assertEquals(36, result?.left?.left?.`val`)
-        Assert.assertEquals(35, result?.left?.right?.`val`)
-        Assert.assertEquals(33, result?.left?.right?.right?.`val`)
+        assertEquals(30, result?.`val`)
+        assertEquals(36, result?.left?.`val`)
+        assertEquals(36, result?.left?.left?.`val`)
+        assertEquals(35, result?.left?.right?.`val`)
+        assertEquals(33, result?.left?.right?.right?.`val`)
 
-        Assert.assertEquals(21, result?.right?.`val`)
-        Assert.assertEquals(26, result?.right?.left?.`val`)
-        Assert.assertEquals(15, result?.right?.right?.`val`)
-        Assert.assertEquals(8, result?.right?.right?.right?.`val`)
+        assertEquals(21, result?.right?.`val`)
+        assertEquals(26, result?.right?.left?.`val`)
+        assertEquals(15, result?.right?.right?.`val`)
+        assertEquals(8, result?.right?.right?.right?.`val`)
     }
 
     class TreeNode(var `val`: Int) {

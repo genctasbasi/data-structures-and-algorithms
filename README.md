@@ -145,6 +145,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FibonacciNumber
 * `@Test` MovingAverageFromDataStream
 * `@Test` EmployeeImportance
+* `@Test` ThirdMaximumNumber
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -198,6 +199,7 @@ https://leetcode.com/problemset/all/
 * `@Test` RobotRoomCleaner
 * `@Test` MedianFinder - O(n)
 * `@Test` SlidingWindowMaximum
+* `@Test` SlidingWindowMaximumWithDequeue - O(n)
 * `@Test` LongestContinuousSubArray - With Heap (O(nlog(n)))
 * `@Test` MinimumWindowSubsequence
 

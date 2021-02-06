@@ -1,6 +1,6 @@
 package solutions.leetcode.medium
 
-import org.junit.Assert
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 /**
@@ -25,9 +25,9 @@ class AddTwoNumbers {
         listNode6.next = listNode4_2
 
         val result = addTwoNumbers(listNode2, listNode5)
-        Assert.assertEquals(result?.`val`, 7)
-        Assert.assertEquals(result?.next?.`val`, 0)
-        Assert.assertEquals(result?.next?.next?.`val`, 8)
+        assertEquals(result?.`val`, 7)
+        assertEquals(result?.next?.`val`, 0)
+        assertEquals(result?.next?.next?.`val`, 8)
     }
 
     class ListNode(var `val`: Int) {

@@ -1,5 +1,6 @@
 package solutions.leetcode.medium
 
+import junit.framework.TestCase.assertEquals
 import org.junit.Assert
 import org.junit.Test
 
@@ -11,7 +12,7 @@ class ArithmeticSlices {
     @Test
     fun test() {
         val result = numberOfArithmeticSlices(intArrayOf(1, 2, 3, 4, 5, 6, 7))
-        Assert.assertEquals(15, result)
+        assertEquals(15, result)
     }
 
     fun numberOfArithmeticSlices(A: IntArray): Int {

@@ -1,6 +1,7 @@
 package solutions.leetcode.medium
 
 import junit.framework.TestCase
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 /**
@@ -11,7 +12,7 @@ class ContainerWithMostWater {
     @Test
     fun test() {
         val result = maxArea(intArrayOf(1, 8, 6, 2, 5, 4, 8, 3, 7))
-        TestCase.assertEquals(49, result)
+        assertEquals(49, result)
     }
 
     // O(n)

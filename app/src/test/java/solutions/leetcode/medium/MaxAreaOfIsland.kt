@@ -31,7 +31,7 @@ class MaxAreaOfIsland {
 
         grid.forEachIndexed { rowIndex, rows ->
             rows.forEachIndexed { colIndex, it ->
-                val count = explore(grid, rowIndex, colIndex, 0)
+                val count = explore(grid, rowIndex, colIndex)
                 if (count > max)
                     max = count
             }
@@ -40,7 +40,7 @@ class MaxAreaOfIsland {
         return max
     }
 
-    fun explore(grid: Array<IntArray>, row: Int, col: Int, landCount: Int): Int {
+    fun explore(grid: Array<IntArray>, row: Int, col: Int): Int {
 
         // it's either zero or visited
         if (grid[row][col] == 0 || grid[row][col] == -1) return 0
@@ -49,10 +49,10 @@ class MaxAreaOfIsland {
         grid[row][col] = -1 // make it 'visited'
         val neighbours = getNeighbours(grid, row, col)
 
-        var count = landCount + 1
+        var count = 1
         neighbours.forEach {
             if (grid[it.first][it.second] == 1) {
-                count += explore(grid, it.first, it.second, landCount)
+                count += explore(grid, it.first, it.second)
             }
         }
 
