@@ -181,6 +181,7 @@ https://leetcode.com/problemset/all/
 * `@Test` TwoKeysKeyboard
 * `@Test` AlphabetBoardPath
 * `@Test` FindAndReplaceInString
+* `@Test` SnapshotArray
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
