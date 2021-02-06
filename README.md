@@ -179,6 +179,7 @@ https://leetcode.com/problemset/all/
 * `@Test` ExpressiveWords
 * `@Test` HandOfStraights
 * `@Test` TwoKeysKeyboard
+* `@Test` AlphabetBoardPath
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
