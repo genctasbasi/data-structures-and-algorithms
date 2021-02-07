@@ -2,11 +2,9 @@ package solutions.leetcode.hard
 
 import org.junit.Test
 
-
 /**
  * https://leetcode.com/problems/guess-the-word/
  * The 'top' Google interview question according to Leetcode.
- *
  */
 class GuessTheWord {
 
