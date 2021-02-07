@@ -203,6 +203,7 @@ https://leetcode.com/problemset/all/
 * `@Test` SlidingWindowMaximumWithDequeue - O(n)
 * `@Test` LongestContinuousSubArray - With Heap (O(nlog(n)))
 * `@Test` MinimumWindowSubsequence
+* `@Test` GuessTheWord
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
