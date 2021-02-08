@@ -147,6 +147,8 @@ https://leetcode.com/problemset/all/
 * `@Test` MovingAverageFromDataStream
 * `@Test` EmployeeImportance
 * `@Test` ThirdMaximumNumber
+* `@Test` InvertBinaryTree
+* `@Test` DiameterOfBinaryTree
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -184,6 +186,7 @@ https://leetcode.com/problemset/all/
 * `@Test` AlphabetBoardPath
 * `@Test` FindAndReplaceInString
 * `@Test` SnapshotArray
+* `@Test` WordBreak
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
