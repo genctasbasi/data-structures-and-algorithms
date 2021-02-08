@@ -266,3 +266,4 @@ The exercises of the book 'Cracking the coding interview' by Gayle Laakmann McDo
 ## Package 5: other
 Exercises from unknown sources
 * `@Test` SeparateZeros
+* `@Test` TreeSetPractice
