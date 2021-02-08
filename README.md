@@ -207,6 +207,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LongestContinuousSubArray - With Heap (O(nlog(n)))
 * `@Test` MinimumWindowSubsequence
 * `@Test` GuessTheWord
+* `@Test` BinaryTreeMaximumPathSum
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
