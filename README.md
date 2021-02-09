@@ -188,6 +188,7 @@ https://leetcode.com/problemset/all/
 * `@Test` SnapshotArray
 * `@Test` WordBreak
 * `@Test` JumpGame1
+* `@Test` MergeIntervals
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
