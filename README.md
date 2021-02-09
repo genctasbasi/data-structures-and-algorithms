@@ -187,6 +187,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FindAndReplaceInString
 * `@Test` SnapshotArray
 * `@Test` WordBreak
+* `@Test` JumpGame1
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
