@@ -208,6 +208,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MinimumWindowSubsequence
 * `@Test` GuessTheWord
 * `@Test` BinaryTreeMaximumPathSum
+* `@Test` JumpGame2
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
