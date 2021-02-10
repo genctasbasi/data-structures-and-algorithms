@@ -189,6 +189,7 @@ https://leetcode.com/problemset/all/
 * `@Test` WordBreak
 * `@Test` JumpGame1
 * `@Test` MergeIntervals
+* `@Test` CarFleet
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
