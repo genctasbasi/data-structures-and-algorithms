@@ -190,6 +190,7 @@ https://leetcode.com/problemset/all/
 * `@Test` JumpGame1
 * `@Test` MergeIntervals
 * `@Test` CarFleet
+* `@Test` LargestRectangleInHistogram
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
