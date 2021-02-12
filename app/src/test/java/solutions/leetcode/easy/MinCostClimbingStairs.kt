@@ -32,7 +32,29 @@ class MinCostClimbingStairs {
         Assert.assertEquals(2, result)
     }
 
+    /**
+     * DP solution
+     */
     fun minCostClimbingStairs(cost: IntArray): Int {
+        if (cost.size < 2) return 0
+
+        var costPrevPrev = cost[0]
+        var costPrev = cost[1]
+        for (i in 2..cost.lastIndex) {
+            val option1 = costPrevPrev
+            val option2 = costPrev
+
+            costPrevPrev = costPrev
+            costPrev = Math.min(option1, option2) + cost[i]
+        }
+
+        return Math.min(costPrev, costPrevPrev)
+    }
+
+    /**
+     * recursion
+     */
+    fun minCostClimbingStairsR(cost: IntArray): Int {
 
         val option1Cost = getCost(cost, 0, mutableMapOf())
         val option2Cost = getCost(cost, 1, mutableMapOf())

@@ -191,6 +191,8 @@ https://leetcode.com/problemset/all/
 * `@Test` MergeIntervals
 * `@Test` CarFleet
 * `@Test` AccountsMerge
+* `@Test` MinimumPathSum
+* `@Test` CoinChange
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -271,6 +273,7 @@ The exercises of the book 'Cracking the coding interview' by Gayle Laakmann McDo
 * `@Test` WeekCount
 
 ## Package 5: other
-Exercises from unknown sources
+Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` SeparateZeros
 * `@Test` TreeSetPractice
+* `@Test` MaxHouseBuy
