@@ -190,7 +190,7 @@ https://leetcode.com/problemset/all/
 * `@Test` JumpGame1
 * `@Test` MergeIntervals
 * `@Test` CarFleet
-* `@Test` LargestRectangleInHistogram
+* `@Test` AccountsMerge
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -213,6 +213,7 @@ https://leetcode.com/problemset/all/
 * `@Test` GuessTheWord
 * `@Test` BinaryTreeMaximumPathSum
 * `@Test` JumpGame2
+* `@Test` LargestRectangleInHistogram
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit

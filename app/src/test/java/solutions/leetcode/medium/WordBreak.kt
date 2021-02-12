@@ -11,7 +11,13 @@ class WordBreak {
     @Test
     fun test() {
         val result = wordBreak("leetcode", listOf("leet", "code"))
-        assertEquals(15, result)
+        assertEquals(true, result)
+    }
+
+    @Test
+    fun test2() {
+        val result = wordBreak("aaaaa", listOf("aa", "aaa"))
+        assertEquals(true, result)
     }
 
     fun wordBreak(s: String, wordDict: List<String>): Boolean {
