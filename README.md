@@ -194,6 +194,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MinimumPathSum
 * `@Test` CoinChange
 * `@Test` CoinChangeDifferentCombinations
+* `@Test` CourseSchedule
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
