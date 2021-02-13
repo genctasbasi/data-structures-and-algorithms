@@ -193,6 +193,7 @@ https://leetcode.com/problemset/all/
 * `@Test` AccountsMerge
 * `@Test` MinimumPathSum
 * `@Test` CoinChange
+* `@Test` CoinChangeDifferentCombinations
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays

@@ -64,14 +64,21 @@ class MaxHouseBuy {
         )
     }
 
+    /**
+     * O(n) recursive + mem
+     */
     fun maxBuy(budget: Int, prices: IntArray): Int {
         if (budget == 0 || prices.isEmpty()) return 0
-        val result = maxBuyR(budget, prices, 0, hashMapOf())
+        val result = maxBuyHelper(budget, prices, 0, hashMapOf())
         return result
     }
 
-    // O(n)
-    fun maxBuyR(budget: Int, prices: IntArray, startIndex: Int, mem: HashMap<String, Int>): Int {
+    fun maxBuyHelper(
+        budget: Int,
+        prices: IntArray,
+        startIndex: Int,
+        mem: HashMap<String, Int>
+    ): Int {
 
         if (budget == 0 || startIndex > prices.lastIndex) return 0
 
@@ -79,8 +86,9 @@ class MaxHouseBuy {
         if (mem[key] != null) return mem[key]!!
 
         val canBuyThis = if (budget >= prices[startIndex]) 1 else 0
-        val option1 = canBuyThis + maxBuyR(budget - prices[startIndex], prices, startIndex + 1, mem)
-        val option2 = maxBuyR(budget, prices, startIndex + 1, mem)
+        val option1 =
+            canBuyThis + maxBuyHelper(budget - prices[startIndex], prices, startIndex + 1, mem)
+        val option2 = maxBuyHelper(budget, prices, startIndex + 1, mem)
 
         val max = Math.max(option1, option2)
         mem[key] = max

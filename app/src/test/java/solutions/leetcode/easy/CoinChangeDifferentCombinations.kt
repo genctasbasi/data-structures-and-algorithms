@@ -6,7 +6,7 @@ import org.junit.Test
 /**
  * https://leetcode.com/problems/min-cost-climbing-stairs/
  */
-class MinCostClimbingStairs {
+class CoinChangeDifferentCombinations {
 
     @Test
     fun test() {
