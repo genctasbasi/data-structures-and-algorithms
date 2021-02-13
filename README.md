@@ -218,6 +218,7 @@ https://leetcode.com/problemset/all/
 * `@Test` BinaryTreeMaximumPathSum
 * `@Test` JumpGame2
 * `@Test` LargestRectangleInHistogram
+* `@Test` StringTransformsIntoAnotherString
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
