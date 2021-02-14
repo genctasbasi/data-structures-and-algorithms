@@ -149,6 +149,7 @@ https://leetcode.com/problemset/all/
 * `@Test` ThirdMaximumNumber
 * `@Test` InvertBinaryTree
 * `@Test` DiameterOfBinaryTree
+* `@Test` LongestContinuousIncreasingSubsequence
 
 ### Medium problems
 * `@Test` AddTwoNumbers
