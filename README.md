@@ -223,6 +223,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LargestRectangleInHistogram
 * `@Test` StringTransformsIntoAnotherString
 * `@Test` RussianDollEnvelopes
+* `@Test` LongestIncreasingPathInAMatrix
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
