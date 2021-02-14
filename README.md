@@ -197,6 +197,7 @@ https://leetcode.com/problemset/all/
 * `@Test` CoinChangeDifferentCombinations
 * `@Test` CourseSchedule
 * `@Test` ProductOfArrayExceptSelf
+* `@Test` LongestIncreasingSubsequence
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
