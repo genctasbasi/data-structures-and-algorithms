@@ -225,6 +225,7 @@ https://leetcode.com/problemset/all/
 * `@Test` RussianDollEnvelopes
 * `@Test` LongestIncreasingPathInAMatrix
 * `@Test` CountOfSmallerNumbersAfterSelf
+* `@Test` EncodeStringWithShortestLengthJava
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
