@@ -198,6 +198,7 @@ https://leetcode.com/problemset/all/
 * `@Test` CourseSchedule
 * `@Test` ProductOfArrayExceptSelf
 * `@Test` LongestIncreasingSubsequence
+* `@Test` DecodeString
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
