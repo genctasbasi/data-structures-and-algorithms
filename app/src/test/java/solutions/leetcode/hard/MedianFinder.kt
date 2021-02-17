@@ -7,7 +7,7 @@ import java.util.*
 /**
  * https://leetcode.com/problems/find-median-from-data-stream/
  * This can be solved with
- *  O(log(n)) - sorting at each put
+ *  O(nlog(n)) - sorting at each put
  *  O(n) - insertion sort, keeping a sorted list
  *  O(log(n)) - With two heaps that I'm not sure how to do (will learn though)
  */

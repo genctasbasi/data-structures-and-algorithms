@@ -288,3 +288,4 @@ Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` SeparateZeros
 * `@Test` TreeSetPractice
 * `@Test` MaxHouseBuy
+* `@Test` WordDice

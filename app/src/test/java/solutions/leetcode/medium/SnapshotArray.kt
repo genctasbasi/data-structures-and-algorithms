@@ -31,18 +31,18 @@ class SnapshotArray {
 
             snapId++
 
+            val snapMap = mutableMapOf<Int, Int>()
             currentMap.keys.forEachIndexed { _, it ->
-                if (map[it] == null)
-                    map[it] = mutableMapOf()
-
-                map[it]!![snapId] = currentMap[it]!!
+                snapMap[it] = currentMap[it]!!
             }
+
+            map[snapId] = snapMap
 
             return snapId
         }
 
         fun get(index: Int, snap_id: Int): Int {
-            return map[index]?.get(snap_id) ?: 0
+            return map[snap_id]?.get(index) ?: 0
         }
     }
 }

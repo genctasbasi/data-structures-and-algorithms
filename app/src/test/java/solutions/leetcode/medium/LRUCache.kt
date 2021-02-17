@@ -50,7 +50,7 @@ class LRUCache {
 
     class Node(var value: Int, val key: Int, var prev: Node?, var next: Node?)
 
-    class LRUCache(val capacity: Int) {
+    class LRUCache(private val capacity: Int) {
 
         val map = mutableMapOf<Int, Node>()
 
