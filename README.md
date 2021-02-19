@@ -73,6 +73,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` RemoveIslands (DFS)
 * `@Test` CycleInGraph
 * `@Test` ReverseWordsInString
+* `@Test` StaircaseTraversal
 
 ### Hard problems
 * `@Test` FourNumberSum
