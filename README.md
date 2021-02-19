@@ -24,6 +24,9 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` RunLengthEncoding
 * `@Test` MinimumWaitingTime
 * `@Test` RemoveDuplicatesFromLinkedList
+* `@Test` ClassPhotos
+* `@Test` NonConstructibleChange
+* `@Test` TournamentWinner
 
 ### Medium problems
 * `@Test` ThreeNumberSum
