@@ -74,6 +74,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` CycleInGraph
 * `@Test` ReverseWordsInString
 * `@Test` StaircaseTraversal
+* `@Test` SumOfLinkedLists
 
 ### Hard problems
 * `@Test` FourNumberSum
