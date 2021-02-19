@@ -71,6 +71,8 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` ValidIPAddress
 * `@Test` RemoveIslands (BFS)
 * `@Test` RemoveIslands (DFS)
+* `@Test` CycleInGraph
+* `@Test` ReverseWordsInString
 
 ### Hard problems
 * `@Test` FourNumberSum
