@@ -112,6 +112,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` UnderscorifySubstring
 * `@Test` PatternMatcher
 * `@Test` MultiStringSearch
+* `@Test` FindNodesDistanceK
 
 ### Very hard problems
 * `@Test` ApartmentHunting
