@@ -113,6 +113,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` PatternMatcher
 * `@Test` MultiStringSearch
 * `@Test` FindNodesDistanceK
+* `@Test` SortKSortedArray
 
 ### Very hard problems
 * `@Test` ApartmentHunting
