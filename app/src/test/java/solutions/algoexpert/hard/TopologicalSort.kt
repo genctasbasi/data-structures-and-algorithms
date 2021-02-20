@@ -2,6 +2,7 @@ package solutions.algoexpert.hard
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
+import java.util.*
 
 /**
  * https://www.algoexpert.io/questions/Topological%20Sort
@@ -29,6 +30,57 @@ class TopologicalSort {
     }
 
     fun topologicalSort(jobs: List<Int>, deps: List<List<Int>>): List<Int> {
+
+        // build the graph
+        val map = mutableMapOf<Int, MutableSet<Int>>()
+        deps.forEach { dep ->
+
+            // edge direction
+            val from = dep[1]
+            val to = dep[0]
+
+            if (map[from] == null) map[from] = mutableSetOf()
+            map[from]?.add(to)
+        }
+
+        jobs.forEach { job ->
+            if (map[job] == null) map[job] = mutableSetOf()
+        }
+
+        val output = java.util.LinkedList<Int>()
+        val status = hashMapOf<Int, Boolean>()
+        map.keys.forEach { key ->
+            val isCyclic = dfs(key, map, output, status)
+            if (isCyclic) return listOf()
+        }
+
+        return output.toList()
+    }
+
+    fun dfs(
+        key: Int,
+        map: MutableMap<Int, MutableSet<Int>>,
+        output: LinkedList<Int>,
+        status: HashMap<Int, Boolean>
+    ): Boolean {
+
+        if (status[key] == true) return true
+        if (!output.contains(key)) {
+
+            status[key] = true
+
+            map[key]?.forEach { job ->
+                dfs(job, map, output, status)
+            }
+
+            status[key] = false
+            output.add(key)
+        }
+
+        return false
+    }
+
+    fun topologicalSort2(jobs: List<Int>, deps: List<List<Int>>): List<Int> {
 
         val dependencyMap = mutableMapOf<Int, MutableSet<Int>>()
 

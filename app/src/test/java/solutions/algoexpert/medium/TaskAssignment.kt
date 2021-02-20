@@ -23,7 +23,7 @@ class TaskAssignment {
 
     fun taskAssignment(k: Int, tasks: List<Int>): List<List<Int>> {
 
-        var map = mutableMapOf<Int, Int>()
+        val map = mutableMapOf<Int, Int>()
         tasks.forEachIndexed { index, it ->
             map[index] = it
         }
@@ -43,8 +43,7 @@ class TaskAssignment {
             map.remove(p1Index)
 
             list.add(listOf(p0Index, p1Index))
-
-
+            
             p0++
             p1--
         }
