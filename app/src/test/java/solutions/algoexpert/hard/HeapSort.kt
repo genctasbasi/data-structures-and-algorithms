@@ -33,15 +33,16 @@ class HeapSort {
 
         if (array.size < 2) return array
 
-        var itemIndex = array.lastIndex / 2
+        val itemIndex = array.lastIndex / 2
 
-        while (itemIndex >= 0) {
-            bubbleDown(array, itemIndex, array.lastIndex)
-            itemIndex--
+        // phase 1: build the heap (turn the array into a heap)
+        for (index in itemIndex downTo 0) {
+            bubbleDown(array, index, array.lastIndex)
         }
 
         var endIndex = array.lastIndex
 
+        // phase 2: extraction
         while (endIndex >= 0) {
             swap(array, 0, endIndex)
             bubbleDown(array, 0, endIndex - 1)
