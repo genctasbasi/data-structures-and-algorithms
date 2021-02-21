@@ -210,6 +210,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LongestIncreasingSubsequence
 * `@Test` DecodeString
 * `@Test` CountSquares
+* `@Test` MaximumFontToFit
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays

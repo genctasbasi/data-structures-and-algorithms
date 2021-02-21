@@ -46,7 +46,7 @@ class QuickSort {
     fun partition(array: MutableList<Int>, left: Int, right: Int): Int {
 
         val pivot = array[right]
-        var i = left
+        var i = left    // this i is where the selected pivot will be placed
 
         (left..right).forEachIndexed { j, _ ->
             if (array[left + j] < pivot) {
