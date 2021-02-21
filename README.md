@@ -209,6 +209,7 @@ https://leetcode.com/problemset/all/
 * `@Test` ProductOfArrayExceptSelf
 * `@Test` LongestIncreasingSubsequence
 * `@Test` DecodeString
+* `@Test` CountSquares
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
