@@ -73,7 +73,17 @@ class LFUCache {
             map[key] = node
         }
 
+        /**
+         * an idiomatic one
+         */
         private fun removeLFUItem() {
+            val key = map.values.minWith(compareBy({ it.frequency }, { it.counter }))
+            key?.let {
+                map.remove(it.key)
+            }
+        }
+
+        private fun removeLFUItem2() {
             var lfu: Node? = null
             var minFrequency = Int.MAX_VALUE
             var minCount = Int.MAX_VALUE
