@@ -76,6 +76,8 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` StaircaseTraversal
 * `@Test` SumOfLinkedLists
 * `@Test` ValidStartingCity
+* `@Test` FindKthLargestValueInBst
+* `@Test` HeightBalancedBinaryTree
 
 ### Hard problems
 * `@Test` FourNumberSum
