@@ -301,3 +301,4 @@ Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` TreeSetPractice
 * `@Test` MaxHouseBuy
 * `@Test` WordDice
+* `@Test` MarsExploration (HackerRank)
