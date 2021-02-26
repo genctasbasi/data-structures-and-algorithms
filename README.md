@@ -162,6 +162,7 @@ https://leetcode.com/problemset/all/
 * `@Test` InvertBinaryTree
 * `@Test` DiameterOfBinaryTree
 * `@Test` LongestContinuousIncreasingSubsequence
+* `@Test` VerifyingAnAlienDictionary
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -213,6 +214,7 @@ https://leetcode.com/problemset/all/
 * `@Test` DecodeString
 * `@Test` CountSquares
 * `@Test` MaximumFontToFit
+* `@Test` LeftmostColumnWithAtLeastAOne
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -270,6 +272,8 @@ https://www.hackerrank.com/interview/interview-preparation-kit/strings/challenge
 * `@Test` CommonChild
 * `@Test` MakingAnagrams (WIP)
 * `@Test` SherlockAndTheValidString
+* `@Test` MarsExploration
+* `@Test` HackerRankInAString
 
 ### Tree Challenges
 https://www.hackerrank.com/interview/interview-preparation-kit/trees/challenges
@@ -303,4 +307,3 @@ Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` TreeSetPractice
 * `@Test` MaxHouseBuy
 * `@Test` WordDice
-* `@Test` MarsExploration (HackerRank)

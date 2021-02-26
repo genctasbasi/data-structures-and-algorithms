@@ -1,4 +1,4 @@
-package solutions.other
+package solutions.hackerRank.strings
 
 import junit.framework.TestCase.assertEquals
 import org.junit.Test

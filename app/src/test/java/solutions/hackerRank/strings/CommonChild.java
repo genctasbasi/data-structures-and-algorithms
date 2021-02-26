@@ -1,4 +1,4 @@
-package solutions.hackerRank.stringManipulation;
+package solutions.hackerRank.strings;
 
 import org.junit.Test;
 
