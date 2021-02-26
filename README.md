@@ -215,6 +215,7 @@ https://leetcode.com/problemset/all/
 * `@Test` CountSquares
 * `@Test` MaximumFontToFit
 * `@Test` LeftmostColumnWithAtLeastAOne
+* `@Test` KClosestPointsToOrigin
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
