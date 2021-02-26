@@ -163,6 +163,8 @@ https://leetcode.com/problemset/all/
 * `@Test` DiameterOfBinaryTree
 * `@Test` LongestContinuousIncreasingSubsequence
 * `@Test` VerifyingAnAlienDictionary
+* `@Test` ValidPalindrome
+* `@Test` AddStrings
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -275,6 +277,7 @@ https://www.hackerrank.com/interview/interview-preparation-kit/strings/challenge
 * `@Test` SherlockAndTheValidString
 * `@Test` MarsExploration
 * `@Test` HackerRankInAString
+* `@Test` SpecialStringAgain
 
 ### Tree Challenges
 https://www.hackerrank.com/interview/interview-preparation-kit/trees/challenges
