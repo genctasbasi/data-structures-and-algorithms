@@ -218,6 +218,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MaximumFontToFit
 * `@Test` LeftmostColumnWithAtLeastAOne
 * `@Test` KClosestPointsToOrigin
+* `@Test` SparseVector
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
