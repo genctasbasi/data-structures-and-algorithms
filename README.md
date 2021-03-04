@@ -78,6 +78,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` ValidStartingCity
 * `@Test` FindKthLargestValueInBst
 * `@Test` HeightBalancedBinaryTree
+* `@Test` NumberOfWaysToTraverseGraph
 
 ### Hard problems
 * `@Test` FourNumberSum
