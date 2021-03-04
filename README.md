@@ -219,6 +219,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LeftmostColumnWithAtLeastAOne
 * `@Test` KClosestPointsToOrigin
 * `@Test` SparseVector
+* `@Test` SubarraySumEqualsK
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
