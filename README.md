@@ -168,6 +168,7 @@ https://leetcode.com/problemset/all/
 * `@Test` VerifyingAnAlienDictionary
 * `@Test` ValidPalindrome
 * `@Test` AddStrings
+* `@Test` AddBinary
 
 ### Medium problems
 * `@Test` AddTwoNumbers
