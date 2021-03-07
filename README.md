@@ -253,6 +253,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LongestIncreasingPathInAMatrix
 * `@Test` CountOfSmallerNumbersAfterSelf
 * `@Test` EncodeStringWithShortestLengthJava
+* `@Test` MaximumProductSubarray
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
