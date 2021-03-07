@@ -118,6 +118,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` MultiStringSearch
 * `@Test` FindNodesDistanceK
 * `@Test` SortKSortedArray
+* `@Test` GenerateDivTags
 
 ### Very hard problems
 * `@Test` ApartmentHunting
@@ -222,6 +223,7 @@ https://leetcode.com/problemset/all/
 * `@Test` KClosestPointsToOrigin
 * `@Test` SparseVector
 * `@Test` SubarraySumEqualsK
+* `@Test` MinimumRemoveToMakeValidParentheses
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
