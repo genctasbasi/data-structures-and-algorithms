@@ -225,6 +225,8 @@ https://leetcode.com/problemset/all/
 * `@Test` SparseVector
 * `@Test` SubarraySumEqualsK
 * `@Test` MinimumRemoveToMakeValidParentheses
+* `@Test` MaximumProductSubarray
+* `@Test` BinaryTreeVerticalOrderTraversal
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -253,7 +255,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LongestIncreasingPathInAMatrix
 * `@Test` CountOfSmallerNumbersAfterSelf
 * `@Test` EncodeStringWithShortestLengthJava
-* `@Test` MaximumProductSubarray
+* `@Test` VerticalOrderTraversalOfABinaryTree
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit

@@ -24,8 +24,10 @@ class ReverseLinkedList {
         node3.next = node4
         node4.next = node5
 
-        val reverse = reverseLinkedList(node0)
-        assertEquals(node5, reverse)
+        val head = reverseLinkedListIterative(node0)
+        reverseLinkedList(node0)
+
+        assertEquals(node5, newHead)
     }
 
     open class LinkedList(value: Int) {
@@ -33,9 +35,35 @@ class ReverseLinkedList {
         var next: LinkedList? = null
     }
 
-    fun reverseLinkedList(head: LinkedList): LinkedList {
-        return head
+    var newHead: LinkedList? = null
+    fun reverseLinkedList(node: LinkedList): LinkedList {
+
+        if (node.next == null) {
+            newHead = node
+            return node
+        }
+
+        val nextNode = reverseLinkedList(node.next!!)
+        nextNode.next = node
+        node.next = null
+        return node
     }
 
+    fun reverseLinkedListIterative(node: LinkedList): LinkedList {
+
+        if (node.next == null) return node
+
+        var prev: LinkedList? = null
+        var current: LinkedList? = node
+
+        while (current != null) {
+            val next = current.next
+            current.next = prev
+            prev = current
+            current = next
+        }
+
+        return prev!!
+    }
 
 }
