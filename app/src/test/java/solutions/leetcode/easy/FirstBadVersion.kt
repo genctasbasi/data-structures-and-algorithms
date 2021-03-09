@@ -34,11 +34,6 @@ class FirstBadVersion {
 
             val isBadVersion = isBadVersion(mid.toInt())
 
-            if (mid - 1 >= 0 && isBadVersion && !isBadVersion((mid - 1).toInt()))
-                return mid.toInt()
-            if (mid + 1 < Int.MIN_VALUE && !isBadVersion && isBadVersion((mid + 1).toInt()))
-                return mid.toInt()
-
             return if (isBadVersion) {
                 helper(start, mid)
             } else {
