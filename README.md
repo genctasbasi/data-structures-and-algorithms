@@ -232,6 +232,7 @@ https://leetcode.com/problemset/all/
 * `@Test` BinaryTreeVerticalOrderTraversal
 * `@Test` KthLargestElementInAnArray
 * `@Test` BinaryTreeRightSideView
+* `@Test` DesignAddAndSearchWordsDataStructure
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
