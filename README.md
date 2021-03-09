@@ -231,6 +231,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MaximumProductSubarray
 * `@Test` BinaryTreeVerticalOrderTraversal
 * `@Test` KthLargestElementInAnArray
+* `@Test` BinaryTreeRightSideView
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
