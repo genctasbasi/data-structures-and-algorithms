@@ -4,7 +4,7 @@ import org.junit.Assert
 import org.junit.Test
 
 /**
- * https://leetcode.com/problems/valid-palindrome-ii/
+ * https://leetcode.com/problems/add-strings/
  */
 class AddStrings {
 

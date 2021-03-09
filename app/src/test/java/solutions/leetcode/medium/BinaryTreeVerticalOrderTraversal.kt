@@ -5,7 +5,7 @@ import org.junit.Test
 import java.util.*
 
 /**
- * https://leetcode.com/problems/binary-tree-vertical-order-traversal/submissions/
+ * https://leetcode.com/problems/binary-tree-vertical-order-traversal
  */
 class BinaryTreeVerticalOrderTraversal {
 

@@ -166,9 +166,12 @@ https://leetcode.com/problemset/all/
 * `@Test` DiameterOfBinaryTree
 * `@Test` LongestContinuousIncreasingSubsequence
 * `@Test` VerifyingAnAlienDictionary
-* `@Test` ValidPalindrome
+* `@Test` ValidPalindrome2
 * `@Test` AddStrings
 * `@Test` AddBinary
+* `@Test` ValidPalindrome
+* `@Test` RangeSumToBST
+* `@Test` FirstBadVersion
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -227,6 +230,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MinimumRemoveToMakeValidParentheses
 * `@Test` MaximumProductSubarray
 * `@Test` BinaryTreeVerticalOrderTraversal
+* `@Test` KthLargestElementInAnArray
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
