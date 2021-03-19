@@ -27,6 +27,8 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` ClassPhotos
 * `@Test` NonConstructibleChange
 * `@Test` TournamentWinner
+* `@Test` GenerateDocument
+* `@Test` SortedSquaredArray
 
 ### Medium problems
 * `@Test` ThreeNumberSum
@@ -119,6 +121,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` FindNodesDistanceK
 * `@Test` SortKSortedArray
 * `@Test` GenerateDivTags
+* `@Test` SolveSudoku
 
 ### Very hard problems
 * `@Test` ApartmentHunting
@@ -328,3 +331,4 @@ Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` TreeSetPractice
 * `@Test` MaxHouseBuy
 * `@Test` WordDice
+* `@Test` AverageValueOfEachLevelInBinaryTree
