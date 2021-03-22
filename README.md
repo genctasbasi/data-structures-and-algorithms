@@ -176,6 +176,8 @@ https://leetcode.com/problemset/all/
 * `@Test` RangeSumToBST
 * `@Test` FirstBadVersion
 * `@Test` ClosestBinarySearchTreeValue
+* `@Test` IntersectionOfTwoArraysII
+* `@Test` BinaryTreePaths
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -242,6 +244,10 @@ https://leetcode.com/problemset/all/
 * `@Test` IntervalListIntersections
 * `@Test` ContinuousSubArraySum
 * `@Test` BinarySearchTreeIterator
+* `@Test` TaskScheduler
+* `@Test` CountAndSay
+* `@Test` RandomPickIndex
+* `@Test` LowestCommonAncestorOfABinaryTree
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
