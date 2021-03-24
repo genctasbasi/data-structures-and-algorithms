@@ -1,6 +1,6 @@
 package solutions.leetcode.easy
 
-import org.junit.Assert
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 /**
@@ -10,12 +10,12 @@ class AddBinary {
 
     @Test
     fun test1() {
-        Assert.assertEquals("10101", addBinary("1010", "1011"))
+        assertEquals("10101", addBinary("1010", "1011"))
     }
 
     @Test
     fun test2() {
-        Assert.assertEquals("100", addBinary("11", "1"))
+        assertEquals("100", addBinary("11", "1"))
     }
 
     fun addBinary(ax: String, bx: String): String {

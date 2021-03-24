@@ -178,6 +178,8 @@ https://leetcode.com/problemset/all/
 * `@Test` ClosestBinarySearchTreeValue
 * `@Test` IntersectionOfTwoArraysII
 * `@Test` BinaryTreePaths
+* `@Test` MergeSortedArray
+* `@Test` KthMissingPositiveNumber
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -248,6 +250,8 @@ https://leetcode.com/problemset/all/
 * `@Test` CountAndSay
 * `@Test` RandomPickIndex
 * `@Test` LowestCommonAncestorOfABinaryTree
+* `@Test` LowestCommonAncestorOfABinaryTreeIII
+* `@Test` LongestSubstringWithAtMostKDistinctCharacters
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
