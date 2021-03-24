@@ -13,7 +13,46 @@ class LongestSubstringWithAtMostKDistinctCharacters {
         assertEquals(3, lengthOfLongestSubstringKDistinct("eceba", 2))
     }
 
+    @Test
+    fun test2() {
+        assertEquals(6, lengthOfLongestSubstringKDistinct("ecebalololo", 2))
+    }
+
     fun lengthOfLongestSubstringKDistinct(s: String, k: Int): Int {
+
+        if (k == 0 || s.isEmpty()) return 0
+
+        var p1 = 0
+        var p2 = p1
+        var max = 0
+
+        val usedLetters = LinkedHashMap<Char, Int>()    // KEEPS THE ORDER!
+        while (p2 <= s.lastIndex) {
+
+            // eceab
+            var char1 = s[p1]
+            val char2 = s[p2]
+
+            usedLetters[char2] = (usedLetters[char2] ?: 0) + 1
+
+            while (usedLetters.size > k) {
+                usedLetters[char1] = (usedLetters[char1] ?: 0) - 1
+                if (usedLetters[char1] == 0)
+                    usedLetters.remove(char1)
+
+                p1++
+                char1 = s[p1]
+            }
+
+            val newDistance = p2 - p1 + 1
+            max = Math.max(max, newDistance)
+            p2++
+        }
+
+        return max
+    }
+
+    fun `lengthOfLongestSubstringKDistinct O(n2)`(s: String, k: Int): Int {
 
         var p1 = 0
         var p2 = p1
