@@ -180,6 +180,7 @@ https://leetcode.com/problemset/all/
 * `@Test` BinaryTreePaths
 * `@Test` MergeSortedArray
 * `@Test` KthMissingPositiveNumber
+* `@Test` PalindromePermutation
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -252,6 +253,8 @@ https://leetcode.com/problemset/all/
 * `@Test` LowestCommonAncestorOfABinaryTree
 * `@Test` LowestCommonAncestorOfABinaryTreeIII
 * `@Test` LongestSubstringWithAtMostKDistinctCharacters
+* `@Test` BuildingsWithAnOceanView
+* `@Test` NextPermutation
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
