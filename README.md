@@ -255,6 +255,8 @@ https://leetcode.com/problemset/all/
 * `@Test` LongestSubstringWithAtMostKDistinctCharacters
 * `@Test` BuildingsWithAnOceanView
 * `@Test` NextPermutation
+* `@Test` CloneGraph
+* `@Test` GroupShiftedStrings
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
