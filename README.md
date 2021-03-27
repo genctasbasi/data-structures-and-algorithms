@@ -257,6 +257,7 @@ https://leetcode.com/problemset/all/
 * `@Test` NextPermutation
 * `@Test` CloneGraph
 * `@Test` GroupShiftedStrings
+* `@Test` AsFarFromLandAsPossible
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
