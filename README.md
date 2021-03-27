@@ -259,6 +259,7 @@ https://leetcode.com/problemset/all/
 * `@Test` GroupShiftedStrings
 * `@Test` AsFarFromLandAsPossible
 * `@Test` InsertIntoASortedCircularLinkedList
+* `@Test` SimplifyPath
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
