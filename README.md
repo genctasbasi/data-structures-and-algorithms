@@ -260,6 +260,7 @@ https://leetcode.com/problemset/all/
 * `@Test` AsFarFromLandAsPossible
 * `@Test` InsertIntoASortedCircularLinkedList
 * `@Test` SimplifyPath
+* `@Test` NestedListWeightSum
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
