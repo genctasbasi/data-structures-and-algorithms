@@ -258,6 +258,7 @@ https://leetcode.com/problemset/all/
 * `@Test` CloneGraph
 * `@Test` GroupShiftedStrings
 * `@Test` AsFarFromLandAsPossible
+* `@Test` InsertIntoASortedCircularLinkedList
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
