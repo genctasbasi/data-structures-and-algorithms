@@ -181,6 +181,8 @@ https://leetcode.com/problemset/all/
 * `@Test` MergeSortedArray
 * `@Test` KthMissingPositiveNumber
 * `@Test` PalindromePermutation
+* `@Test` ReadNCharactersGivenRead4 
+* `@Test` MonotonicArray
 
 ### Medium problems
 * `@Test` AddTwoNumbers

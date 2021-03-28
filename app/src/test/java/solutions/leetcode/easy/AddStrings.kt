@@ -1,6 +1,6 @@
 package solutions.leetcode.easy
 
-import org.junit.Assert
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 /**
@@ -10,17 +10,17 @@ class AddStrings {
 
     @Test
     fun test() {
-        Assert.assertEquals("895", addStrings("546", "349"))
+        assertEquals("895", addStrings("546", "349"))
     }
 
     @Test
     fun test1() {
-        Assert.assertEquals("10916", addStrings("5458", "5458"))
+        assertEquals("10916", addStrings("5458", "5458"))
     }
 
     @Test
     fun test2() {
-        Assert.assertEquals("108", addStrings("9", "99"))
+        assertEquals("108", addStrings("9", "99"))
     }
 
     fun addStrings(num1x: String, num2x: String): String {
