@@ -265,6 +265,9 @@ https://leetcode.com/problemset/all/
 * `@Test` NestedListWeightSum
 * `@Test` LargestBSTSubTree
 * `@Test` AllNodesDistanceKInBinaryTree
+* `@Test` FindKClosestElements
+* `@Test` MaxConsecutiveOnesIII
+* `@Test` MaximumSwap
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
