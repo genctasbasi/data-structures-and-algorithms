@@ -183,6 +183,9 @@ https://leetcode.com/problemset/all/
 * `@Test` PalindromePermutation
 * `@Test` ReadNCharactersGivenRead4 
 * `@Test` MonotonicArray
+* `@Test` RemoveLinkedListElements
+* `@Test` SquaresOfASortedArray
+* `@Test` RemoveAllAdjacentDuplicatesInString
 
 ### Medium problems
 * `@Test` AddTwoNumbers
