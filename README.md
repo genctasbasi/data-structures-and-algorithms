@@ -186,6 +186,8 @@ https://leetcode.com/problemset/all/
 * `@Test` RemoveLinkedListElements
 * `@Test` SquaresOfASortedArray
 * `@Test` RemoveAllAdjacentDuplicatesInString
+* `@Test` MissingRanges
+* `@Test` MoveZeroes
 
 ### Medium problems
 * `@Test` AddTwoNumbers

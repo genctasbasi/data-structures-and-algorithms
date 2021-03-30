@@ -1,6 +1,6 @@
 package solutions.leetcode.easy
 
-import org.junit.Assert
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 /**
@@ -11,25 +11,25 @@ class RemoveDuplicatesFromSortedArray {
     @Test
     fun test() {
         val result = removeDuplicates(intArrayOf(1, 1, 2))
-        Assert.assertEquals(2, result)
+        assertEquals(2, result)
     }
 
     @Test
     fun test2() {
         val result = removeDuplicates(intArrayOf(0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 4))
-        Assert.assertEquals(5, result)
+        assertEquals(5, result)
     }
 
     @Test
     fun test3() {
         val result = removeDuplicates(intArrayOf(0, 1, 2, 3, 3, 4, 4, 5))
-        Assert.assertEquals(5, result)
+        assertEquals(5, result)
     }
 
     @Test
     fun test4() {
         val result = removeDuplicates(intArrayOf(-3, -1, -1, 0, 0, 0, 0, 0, 2))
-        Assert.assertEquals(4, result)
+        assertEquals(4, result)
     }
 
     fun removeDuplicates(nums: IntArray): Int {
