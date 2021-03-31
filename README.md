@@ -273,6 +273,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FindKClosestElements
 * `@Test` MaxConsecutiveOnesIII
 * `@Test` MaximumSwap
+* `@Test` FriendsOfAppropriateAges
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
