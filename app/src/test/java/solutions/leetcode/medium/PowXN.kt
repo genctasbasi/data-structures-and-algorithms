@@ -25,6 +25,30 @@ class PowXN {
 
     fun myPow(x: Double, n: Int): Double {
 
+        if (n == 0) return 1.0
+        if (x == 1.0) return 1.0
+
+        val nCalc = if (n < 0) n * -1 else n
+        val sum = myPowHelper(x, nCalc)
+
+        return if (n < 0) 1.div(sum) else sum
+    }
+
+    private fun myPowHelper(x: Double, n: Int): Double {
+
+        if (n == 0) return 1.0  // base case
+
+        val half = myPowHelper(x, n / 2)
+
+        return if (n.rem(2) == 0) {
+            half * half
+        } else {
+            half * half * x
+        }
+    }
+
+    fun `myPow O(n)`(x: Double, n: Int): Double {
+
         if (n == 0 || x == 1.0) return 1.0
         if (x == -1.0) return if (n.rem(2) == 0) 1.0 else -1.0
         if (n == Int.MIN_VALUE) return 0.0

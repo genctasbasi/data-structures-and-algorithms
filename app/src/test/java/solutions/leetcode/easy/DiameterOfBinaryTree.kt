@@ -93,7 +93,30 @@ class DiameterOfBinaryTree {
         var right: TreeNode? = null
     }
 
+    var max = Int.MIN_VALUE
+
     fun diameterOfBinaryTree(root: TreeNode?): Int {
+        helper(root)
+        return max
+    }
+
+    fun helper(node: TreeNode?): Int {
+
+        if (node == null) return 0
+
+        val left = helper(node.left)
+        val right = helper(node.right)
+
+        max = Math.max(max, left + right)
+
+        return Math.max(left, right) + 1 // 1 is itself
+    }
+
+    /**
+     * This is how I used to do it
+     * but there must be a better (shorter & more readable) way
+     */
+    fun diameterOfBinaryTree2(root: TreeNode?): Int {
 
         if (root == null) return 0
         if (root.left == null && root.right == null) return 0

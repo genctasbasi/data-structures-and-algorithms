@@ -14,8 +14,38 @@ class TrappingRainWater {
         assertEquals(6, result)
     }
 
-    // this is O(n2) but can get better!
     fun trap(height: IntArray): Int {
+
+        var total = 0
+        val leftHeights = Array(height.size) { 0 }
+        val rightHeights = Array(height.size) { 0 }
+        leftHeights[0] = height[0]
+        rightHeights[0] = height.last()
+
+        var p = 1
+        while (p <= height.lastIndex) {
+            leftHeights[p] = Math.max(height[p], leftHeights[p - 1])
+            p++
+        }
+
+        p = height.lastIndex - 1
+        while (p >= 0) {
+            rightHeights[p] = Math.max(height[p], rightHeights[p + 1])
+            p--
+        }
+
+        height.forEachIndexed { index, i ->
+            if (index != 0 && index != height.lastIndex) {
+                val min = Math.min(leftHeights[index], rightHeights[index])
+                total += (min - i)
+            }
+        }
+
+        return total
+    }
+
+    // this is O(n2) but can get better!
+    fun `trap O(n2)`(height: IntArray): Int {
 
         var trappedWater = 0
         var index = 0
