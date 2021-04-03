@@ -188,6 +188,7 @@ https://leetcode.com/problemset/all/
 * `@Test` RemoveAllAdjacentDuplicatesInString
 * `@Test` MissingRanges
 * `@Test` MoveZeroes
+* `@Test` StrobogrammaticNumber
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -274,6 +275,9 @@ https://leetcode.com/problemset/all/
 * `@Test` MaxConsecutiveOnesIII
 * `@Test` MaximumSwap
 * `@Test` FriendsOfAppropriateAges
+* `@Test` RemoveAllAdjacentDuplicatesInStringII
+* `@Test` RemoveSubFoldersFromTheFilesystem
+* `@Test` StrobogrammaticNumberII
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
