@@ -310,6 +310,7 @@ https://leetcode.com/problemset/all/
 * `@Test` CountOfSmallerNumbersAfterSelf
 * `@Test` EncodeStringWithShortestLengthJava
 * `@Test` VerticalOrderTraversalOfABinaryTree
+* `@Test` ValidPalindrome3
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
