@@ -281,6 +281,7 @@ https://leetcode.com/problemset/all/
 * `@Test` ConstructBinaryTreeFromString
 * `@Test` FindLargestValueInEachTreeRow
 * `@Test` TopKFrequentElements
+* `@Test` MinimumAddToMakeParenthesesValid
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -376,4 +377,4 @@ Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` TreeSetPractice
 * `@Test` MaxHouseBuy
 * `@Test` WordDice
-* `@Test` AverageValueOfEachLevelInBinaryTree
+* `@Test` RotationalCipher
