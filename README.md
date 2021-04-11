@@ -84,6 +84,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` HeightBalancedBinaryTree
 * `@Test` NumberOfWaysToTraverseGraph
 * `@Test` ReconstructBST
+* `@Test` MergeOverlappingIntervals
 
 ### Hard problems
 * `@Test` FourNumberSum
