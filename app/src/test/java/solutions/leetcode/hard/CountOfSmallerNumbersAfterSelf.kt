@@ -38,12 +38,12 @@ class CountOfSmallerNumbersAfterSelf {
         if (nums.isEmpty()) return listOf()
         val output = Array(nums.size) { 0 }
 
-        val root = buildTree(nums, output)
+        buildTree(nums, output)
 
         return output.toList()
     }
 
-    private fun buildTree(nums: IntArray, output: Array<Int>): Node {
+    private fun buildTree(nums: IntArray, output: Array<Int>) {
 
         val root = Node(nums.last(), 0)
         output[nums.lastIndex] = 0
@@ -52,8 +52,6 @@ class CountOfSmallerNumbersAfterSelf {
             val num = nums[i]
             insert(root, num, 0, i, output)
         }
-
-        return root
     }
 
     private fun insert(

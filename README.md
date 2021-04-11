@@ -29,6 +29,8 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` TournamentWinner
 * `@Test` GenerateDocument
 * `@Test` SortedSquaredArray
+* `@Test` TandemBicycle
+* `@Test` FirstNonRepeatingCharacter
 
 ### Medium problems
 * `@Test` ThreeNumberSum
