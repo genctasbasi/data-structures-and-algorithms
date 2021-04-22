@@ -124,7 +124,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` FindNodesDistanceK
 * `@Test` SortKSortedArray
 * `@Test` GenerateDivTags
-* `@Test` SolveSudoku
+* `@Test` LaptopRentals
 
 ### Very hard problems
 * `@Test` ApartmentHunting
