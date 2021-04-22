@@ -85,6 +85,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` NumberOfWaysToTraverseGraph
 * `@Test` ReconstructBST
 * `@Test` MergeOverlappingIntervals
+* `@Test` SortStack
 
 ### Hard problems
 * `@Test` FourNumberSum
