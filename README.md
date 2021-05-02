@@ -136,6 +136,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` RightSmallerThan
 * `@Test` WaterfallStreams
 * `@Test` LRUCache
+* `@Test` LongestStringChain
 
 ## Package 2: Leetcode.com
 https://leetcode.com/problemset/all/

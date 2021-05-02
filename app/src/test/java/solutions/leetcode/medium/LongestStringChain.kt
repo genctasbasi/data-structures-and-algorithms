@@ -4,7 +4,7 @@ import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 /**
- * https://leetcode.com/problems/add-two-numbers/
+ * https://leetcode.com/problems/longest-string-chain/
  */
 class LongestStringChain {
 

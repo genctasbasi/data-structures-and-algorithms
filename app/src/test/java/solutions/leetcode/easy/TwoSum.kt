@@ -4,7 +4,7 @@ import org.junit.Assert
 import org.junit.Test
 
 /**
- * https://leetcode.com/problems/add-two-numbers
+ * https://leetcode.com/problems/two-sum/
  */
 class TwoSum {
 
