@@ -13,9 +13,73 @@ class LargestRectangleInHistogram {
 
     @Test
     fun test() {
+        val result = largestRectangleArea(intArrayOf(2, 1, 5, 6, 2, 3))
+        assertEquals(10, result)
+    }
+
+    @Test
+    fun `test O(n2)`() {
         val result = `largestRectangleArea O(n2)`(intArrayOf(2, 1, 5, 6, 2, 3))
         assertEquals(10, result)
     }
+
+    /**
+     * O(n)
+     */
+    fun largestRectangleArea(heights: IntArray): Int {
+
+        if (heights.isEmpty()) return 0
+
+        val left = Array(heights.size) { -1 }
+        val right = Array(heights.size) { -1 }
+        val area = Array(heights.size) { -1 }
+
+        val stack = Stack<Int>()
+
+        var index = 0
+
+        // find left limits
+        while (index <= heights.lastIndex) {
+
+            val currentHeight = heights[index]
+
+            while (stack.isNotEmpty() && heights[stack.peek()] >= currentHeight) {
+                stack.pop()
+            }
+
+            if (stack.isEmpty()) left[index] = -1 else left[index] = stack.peek()
+
+            stack.push(index)
+            index++
+        }
+
+        // find right limits
+        index = heights.lastIndex
+        stack.clear()
+        while (index >= 0) {
+
+            val currentHeight = heights[index]
+
+            while (stack.isNotEmpty() && heights[stack.peek()] >= currentHeight) {
+                stack.pop()
+            }
+
+            if (stack.isEmpty()) right[index] = heights.lastIndex + 1 else right[index] =
+                stack.peek()
+
+            stack.push(index)
+            index--
+        }
+
+        // calculate area:
+        (0..heights.lastIndex).forEach {
+            val currentHeight = heights[it]
+            area[it] = (right[it] - left[it] - 1) * currentHeight
+        }
+
+        return area.max()!!
+    }
+
 
     /**
      * O(n2)
@@ -54,8 +118,7 @@ class LargestRectangleInHistogram {
             right++
         }
 
-        val area = (leftWidth + rightWidth + 1) * barHeight
-        // print("index: " + index + " l: " + leftWidth + " r: " + rightWidth + " area: " + area + ", ")
-        return area
+        // return the area
+        return (leftWidth + rightWidth + 1) * barHeight
     }
 }
