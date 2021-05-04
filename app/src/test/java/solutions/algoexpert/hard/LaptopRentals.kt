@@ -4,6 +4,9 @@ import org.junit.Test
 
 /**
  * https://www.algoexpert.io/questions/Laptop%20Rentals
+ * Similar to MeetingRooms2: https://leetcode.com/problems/meeting-rooms-ii/
+ * Can be (and should be!) solved in O(nlog(n))
+ *
  */
 class LaptopRentals {
 

@@ -289,7 +289,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FindLargestValueInEachTreeRow
 * `@Test` TopKFrequentElements
 * `@Test` MinimumAddToMakeParenthesesValid
-* `@Test` MeetingRoomsII
+* `@Test` MeetingRooms2
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
