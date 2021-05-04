@@ -4,10 +4,13 @@ import junit.framework.TestCase.assertEquals
 import org.junit.Test
 import java.util.*
 
-class HeapPractice {
+/**
+ * Practice tests
+ */
+class Sandbox {
 
     @Test
-    fun testMin() {
+    fun `min heap`() {
 
         val minHeap: Queue<Int> = PriorityQueue<Int>()
         minHeap.offer(10)
@@ -24,7 +27,7 @@ class HeapPractice {
     }
 
     @Test
-    fun testMax() {
+    fun `max heap`() {
         val maxHeap: Queue<Int> = PriorityQueue<Int>(Collections.reverseOrder())
         maxHeap.offer(5)
         maxHeap.offer(10)
@@ -38,6 +41,14 @@ class HeapPractice {
         assertEquals(20, head)
         assertEquals(10, maxHeap.peek())
         assertEquals(2, maxHeap.size)
+    }
 
+    @Test
+    fun `tree map`() {
+
+        val map = TreeMap<Int, Int>()   // It's a red-black tree implementation
+        map[10] = 20
+
+        assertEquals(10, map.floorKey(15))
     }
 }
