@@ -289,6 +289,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FindLargestValueInEachTreeRow
 * `@Test` TopKFrequentElements
 * `@Test` MinimumAddToMakeParenthesesValid
+* `@Test` MeetingRoomsII
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -385,3 +386,4 @@ Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` MaxHouseBuy
 * `@Test` WordDice
 * `@Test` RotationalCipher
+* `@Test` HeapPractice
