@@ -38,6 +38,51 @@ class CarFleet {
         var isRemoving: Boolean
     )
 
+    data class Car(var position: Int, var speed: Int)
+
+    fun `carFleet another approach`(target: Int, position: IntArray, speed: IntArray): Int {
+
+        var fleetCount = 0
+        val cars = mutableListOf<Car>()
+        position.forEachIndexed { index, position ->
+            cars.add(Car(position, speed[index]))
+        }
+
+        var carsSorted = cars.sortedWith(compareBy { -it.position })
+
+        while (carsSorted.isNotEmpty()) {
+
+            carsSorted.forEachIndexed { index, car ->
+
+                if (index == 0) {
+                    car.position = car.position + car.speed
+                } else {
+
+                    val carInFront = carsSorted[index - 1]
+                    val nextPotentialPosition = car.position + car.speed
+
+                    if (nextPotentialPosition >= carInFront.position) {   // collide
+                        car.position = carInFront.position
+                        car.speed = -1  // will be removed
+                        if (nextPotentialPosition == target) fleetCount--    // this will be counted as one
+                    } else {
+                        car.position = nextPotentialPosition
+                    }
+                }
+
+                if (car.position >= target) {
+                    fleetCount++
+                    car.speed = -1
+                }
+            }
+
+            // remove collided ones
+            carsSorted = carsSorted.filter { it.speed != -1 }
+        }
+
+        return fleetCount
+    }
+
     fun carFleet(target: Int, position: IntArray, speed: IntArray): Int {
         if (position.isEmpty() || speed.isEmpty() || position.size != speed.size) return 0
 

@@ -19,6 +19,28 @@ class EmployeeImportance {
 
     fun getImportance(employees: List<Employee?>, id: Int): Int {
 
+        val employee = employees.find { it?.id == id } ?: return 0
+        if (employee.subordinates.isEmpty()) return employee.importance
+
+        return rec(employees, employee.subordinates) + employee.importance
+    }
+
+    fun rec(employees: List<Employee?>, subs: List<Int>?): Int {
+
+        if (subs == null || subs.isEmpty()) return 0
+
+        var total = 0
+        subs.forEach { subId ->
+            val sub = employees.find { it?.id == subId }
+            total += sub?.importance ?: 0
+            total += rec(employees, sub?.subordinates)
+        }
+
+        return total
+    }
+
+    fun `getImportance old`(employees: List<Employee?>, id: Int): Int {
+
         val employeeMap = mutableMapOf<Int, Employee>()
         employees.forEach {
             it?.let { employee ->
