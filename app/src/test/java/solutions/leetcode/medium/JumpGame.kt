@@ -6,7 +6,7 @@ import org.junit.Test
 /**
  * https://leetcode.com/problems/jump-game/
  */
-class JumpGame1 {
+class JumpGame {
 
     @Test
     fun test() {

@@ -48,7 +48,9 @@ class Sandbox {
 
         val map = TreeMap<Int, Int>()   // It's a red-black tree implementation
         map[10] = 20
+        map[15] = 25
 
+        map.subMap(10, false, 20, true).clear()
         assertEquals(10, map.floorKey(15))
     }
 }
