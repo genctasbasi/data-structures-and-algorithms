@@ -16,6 +16,38 @@ class RussianDollEnvelopes {
         assertEquals(3, result)
     }
 
+    @Test
+    fun test1() {
+        val result = maxEnvelopes(
+            arrayOf(
+                intArrayOf(2, 100),
+                intArrayOf(3, 200),
+                intArrayOf(4, 300),
+                intArrayOf(5, 500),
+                intArrayOf(5, 400),
+                intArrayOf(5, 250),
+                intArrayOf(6, 370),
+                intArrayOf(6, 360),
+                intArrayOf(7, 380)
+            )
+        )
+        assertEquals(5, result)
+    }
+
+    @Test
+    fun test2() {
+        val result = maxEnvelopes(
+            arrayOf(
+                intArrayOf(46, 89),
+                intArrayOf(50, 53),
+                intArrayOf(52, 68),
+                intArrayOf(72, 45),
+                intArrayOf(77, 81)
+            )
+        )
+        assertEquals(5, result)
+    }
+
     fun maxEnvelopes(envelopes: Array<IntArray>): Int {
 
         envelopes.sortWith(compareBy({ it[0] }, { it[1] }))

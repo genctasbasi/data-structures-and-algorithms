@@ -196,6 +196,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MissingRanges
 * `@Test` MoveZeroes
 * `@Test` StrobogrammaticNumber
+* `@Test` SymmetricTree
 
 ### Medium problems
 * `@Test` AddTwoNumbers

@@ -220,11 +220,11 @@ class RandomPickWithWeight {
 
         private fun getIndex(sums: MutableList<Int>, target: Double, start: Int, end: Int): Int {
             if (start >= end) return start
-            val mid = (end - start).div(2)
-            return if (sums[start + mid] > target) {
-                getIndex(sums, target, start, start + mid)
+            val mid = (start + end).div(2)
+            return if (sums[mid] > target) {
+                getIndex(sums, target, start, mid)
             } else {
-                getIndex(sums, target, start + mid + 1, end)
+                getIndex(sums, target, mid + 1, end)
             }
         }
     }
