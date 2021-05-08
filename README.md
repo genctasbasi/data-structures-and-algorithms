@@ -296,6 +296,7 @@ https://leetcode.com/problemset/all/
 * `@Test` AllPathsFromSourceToTarget
 * `@Test` CombinationSum
 * `@Test` Subset
+* `@Test` SearchIn2DMatrix
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
