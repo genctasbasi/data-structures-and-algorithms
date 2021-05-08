@@ -197,6 +197,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MoveZeroes
 * `@Test` StrobogrammaticNumber
 * `@Test` SymmetricTree
+* `@Test` SqrtX
 
 ### Medium problems
 * `@Test` AddTwoNumbers
