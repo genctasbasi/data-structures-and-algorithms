@@ -298,6 +298,7 @@ https://leetcode.com/problemset/all/
 * `@Test` Subset
 * `@Test` SearchIn2DMatrix
 * `@Test` LongestSubstringWithAtLeastKRepeatingCharacters
+* `@Test` FindKLengthSubstringsWithNoRepeatedCharacters
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
