@@ -297,6 +297,7 @@ https://leetcode.com/problemset/all/
 * `@Test` CombinationSum
 * `@Test` Subset
 * `@Test` SearchIn2DMatrix
+* `@Test` LongestSubstringWithAtLeastKRepeatingCharacters
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
