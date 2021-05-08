@@ -293,6 +293,8 @@ https://leetcode.com/problemset/all/
 * `@Test` MeetingRooms2
 * `@Test` BinaryTreeLevelOrderTraversal
 * `@Test` AllPathsFromSourceToTarget
+* `@Test` CombinationSum
+* `@Test` Subset
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
