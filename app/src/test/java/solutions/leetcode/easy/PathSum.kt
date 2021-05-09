@@ -63,7 +63,8 @@ class PathSum {
         if (node == null) return false
         val newSum = sum + node.`val`
 
-        if (newSum == targetSum) return true
+        val isLeaf = node.left == null && node.right == null
+        if (newSum == targetSum && isLeaf) return true
 
         if (find(node.left, targetSum, newSum)) return true
         if (find(node.right, targetSum, newSum)) return true

@@ -64,7 +64,7 @@ class PathSum2 {
         var left: TreeNode? = null
         var right: TreeNode? = null
     }
-
+    
     val output = mutableListOf<MutableList<Int>>()
     fun pathSum(root: TreeNode?, targetSum: Int): List<List<Int>> {
         if (root == null) return listOf()
@@ -72,7 +72,7 @@ class PathSum2 {
         if (root.left == null && root.right == null && root.`val` == targetSum)
             return listOf(listOf(root.`val`))
 
-        findPaths(root, targetSum, 0, mutableListOf(), true)
+        findPaths(root, targetSum, 0, mutableListOf())
         return output
     }
 
@@ -80,8 +80,7 @@ class PathSum2 {
         node: TreeNode?,
         targetSum: Int,
         sum: Int,
-        list: MutableList<Int>,
-        isRoot: Boolean = false
+        list: MutableList<Int>
     ) {
 
         if (node == null) return
@@ -90,7 +89,7 @@ class PathSum2 {
         list.add(node.`val`)
 
         val isLeaf = node.left == null && node.right == null
-        if (newSum == targetSum && !isRoot && isLeaf) {
+        if (newSum == targetSum && isLeaf) {
             output.add(list)
             return
         }
