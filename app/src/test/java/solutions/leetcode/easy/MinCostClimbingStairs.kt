@@ -32,10 +32,23 @@ class MinCostClimbingStairs {
         Assert.assertEquals(2, result)
     }
 
+    fun minCostClimbingStairs(cost: IntArray): Int {
+
+        val dp = Array(cost.size) { 0 }
+        dp[0] = cost[0]
+        dp[1] = cost[1]
+
+        (2 until cost.size).forEach {
+            dp[it] = cost[it] + Math.min(dp[it - 2], dp[it - 1])
+        }
+
+        return Math.min(dp.last(), dp[dp.lastIndex - 1])
+    }
+
     /**
      * DP solution
      */
-    fun minCostClimbingStairs(cost: IntArray): Int {
+    fun minCostClimbingStairs2(cost: IntArray): Int {
         if (cost.size < 2) return 0
 
         var costPrevPrev = cost[0]
