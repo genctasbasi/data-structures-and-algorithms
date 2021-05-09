@@ -128,6 +128,7 @@ https://www.algoexpert.io/questions <br/>
 * `@Test` LaptopRentals
 * `@Test` MaximumSumSubMatrix
 * `@Test` LargestRectangleUnderSkyline
+* `@Test` SolveSudoku
 
 ### Very hard problems
 * `@Test` ApartmentHunting
