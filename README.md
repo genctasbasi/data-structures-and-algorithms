@@ -200,6 +200,8 @@ https://leetcode.com/problemset/all/
 * `@Test` SymmetricTree
 * `@Test` SqrtX
 * `@Test` SameTree
+* `@Test` MaximumDepthOfBinaryTree
+* `@Test` PathSum
 
 ### Medium problems
 * `@Test` AddTwoNumbers
@@ -301,6 +303,7 @@ https://leetcode.com/problemset/all/
 * `@Test` SearchIn2DMatrix
 * `@Test` LongestSubstringWithAtLeastKRepeatingCharacters
 * `@Test` FindKLengthSubstringsWithNoRepeatedCharacters
+* `@Test` PathSum2
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
