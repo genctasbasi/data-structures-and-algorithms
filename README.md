@@ -305,6 +305,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FindKLengthSubstringsWithNoRepeatedCharacters
 * `@Test` PathSum2
 * `@Test` NumberOfIslands
+* `@Test` HouseRobber
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
