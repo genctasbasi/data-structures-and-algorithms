@@ -304,6 +304,7 @@ https://leetcode.com/problemset/all/
 * `@Test` LongestSubstringWithAtLeastKRepeatingCharacters
 * `@Test` FindKLengthSubstringsWithNoRepeatedCharacters
 * `@Test` PathSum2
+* `@Test` NumberOfIslands
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
