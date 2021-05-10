@@ -307,6 +307,7 @@ https://leetcode.com/problemset/all/
 * `@Test` NumberOfIslands
 * `@Test` HouseRobber
 * `@Test` HouseRobber2
+* `@Test` TargetSum
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
