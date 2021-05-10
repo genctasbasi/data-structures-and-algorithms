@@ -43,7 +43,6 @@ class HouseRobber {
         dp[1] = Math.max(nums[0], nums[1])
 
         (2..dp.lastIndex).forEach {
-
             val option1 = dp[it - 2] + nums[it]
             val option2 = dp[it - 1]
             dp[it] = listOf(option1, option2).max()!!
