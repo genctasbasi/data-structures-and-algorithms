@@ -311,6 +311,8 @@ https://leetcode.com/problemset/all/
 * `@Test` OnesAndZeros
 * `@Test` PathWithMinimumEffort
 * `@Test` MinDiffInThreeMoves
+* `@Test` InsertInterval
+* `@Test` ValidSquare
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
