@@ -309,6 +309,7 @@ https://leetcode.com/problemset/all/
 * `@Test` HouseRobber2
 * `@Test` TargetSum
 * `@Test` OnesAndZeros
+* `@Test` PathWithMinimumEffort
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
