@@ -310,6 +310,7 @@ https://leetcode.com/problemset/all/
 * `@Test` TargetSum
 * `@Test` OnesAndZeros
 * `@Test` PathWithMinimumEffort
+* `@Test` MinDiffInThreeMoves
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
