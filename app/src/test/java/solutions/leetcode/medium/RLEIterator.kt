@@ -20,6 +20,7 @@ class RLEIterator {
 
     class RLEIterator(encoding: IntArray) {
 
+        // TODO: A queue would be much better I guess, realized afterwards
         private val count = mutableListOf<Int>()
         private val number = mutableListOf<Int>()
 
@@ -42,7 +43,7 @@ class RLEIterator {
                 if (start <= firstItemCount) {
                     count[0] = count[0] - start
                     val returning = number[0]
-                    if(count[0] == 0){
+                    if (count[0] == 0) {
                         count.removeAt(0)
                         number.removeAt(0)
                     }
