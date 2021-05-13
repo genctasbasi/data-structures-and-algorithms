@@ -313,6 +313,7 @@ https://leetcode.com/problemset/all/
 * `@Test` MinDiffInThreeMoves
 * `@Test` InsertInterval
 * `@Test` ValidSquare
+* `@Test` RangeSumQuery2D
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
