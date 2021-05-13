@@ -314,6 +314,7 @@ https://leetcode.com/problemset/all/
 * `@Test` InsertInterval
 * `@Test` ValidSquare
 * `@Test` RangeSumQuery2D
+* `@Test` RLEIterator
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
