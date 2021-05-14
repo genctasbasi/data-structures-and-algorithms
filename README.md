@@ -321,6 +321,7 @@ https://leetcode.com/problemset/all/
 * `@Test` NumberOfMatchingSubsequences
 * `@Test` DeleteNodesAndReturnForest
 * `@Test` PathWithMaximumGold
+* `@Test` SentenceScreenFitting
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
