@@ -320,6 +320,7 @@ https://leetcode.com/problemset/all/
 * `@Test` BullsAndCows
 * `@Test` NumberOfMatchingSubsequences
 * `@Test` DeleteNodesAndReturnForest
+* `@Test` PathWithMaximumGold
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
