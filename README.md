@@ -317,6 +317,7 @@ https://leetcode.com/problemset/all/
 * `@Test` RLEIterator
 * `@Test` SurroundedRegions
 * `@Test` FindDuplicateSubtrees
+* `@Test` BullsAndCows
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
