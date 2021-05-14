@@ -319,6 +319,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FindDuplicateSubtrees
 * `@Test` BullsAndCows
 * `@Test` NumberOfMatchingSubsequences
+* `@Test` DeleteNodesAndReturnForest
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
