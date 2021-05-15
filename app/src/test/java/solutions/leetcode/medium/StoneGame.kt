@@ -21,8 +21,7 @@ class StoneGame {
 
         val queue: Deque<Int> = LinkedList()
         piles.forEach { queue.add(it) }
-        val alexWin = calc(queue, true)
-        return alexWin
+        return calc(queue, true)
     }
 
     var alexSum = 0
@@ -72,8 +71,7 @@ class StoneGame {
             // option 2
             val alexTakeLast = queue.pollLast()
             alexSum += alexTakeLast
-            val alexWinLast = calc(queue, false)
-            return alexWinLast
+            return calc(queue, false)
         }
     }
 
