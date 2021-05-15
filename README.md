@@ -324,6 +324,7 @@ https://leetcode.com/problemset/all/
 * `@Test` SentenceScreenFitting
 * `@Test` FindTwoNonOverlappingSubArraysEachWithTargetSum
 * `@Test` FlipEquivalentBinaryTrees
+* `@Test` TimeNeededToInformAllEmployees
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -354,6 +355,7 @@ https://leetcode.com/problemset/all/
 * `@Test` EncodeStringWithShortestLengthJava
 * `@Test` VerticalOrderTraversalOfABinaryTree
 * `@Test` ValidPalindrome3
+* `@Test` MinimumNumberOfIncrementsOnSubArraysToFormATargetArray
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit

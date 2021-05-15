@@ -9,6 +9,31 @@ import java.util.*
  */
 class Sandbox {
 
+    class TreeNode(var `val`: Int) {
+        var left: TreeNode? = null
+        var right: TreeNode? = null
+    }
+
+    @Test
+    fun compareTrees() {
+
+        val node1 = TreeNode(1)
+        val node2 = TreeNode(2)
+        val node3 = TreeNode(3)
+
+        node1.left = node2
+        node1.right = node3
+
+        val node1_2 = TreeNode(1)
+        val node2_2 = TreeNode(2)
+        val node3_2 = TreeNode(3)
+
+        node1_2.left = node2_2
+        node1_2.right = node3_2
+
+        assertEquals(node1, node1_2)
+    }
+
     @Test
     fun dfsMerge() {
         val lists = listOf(
