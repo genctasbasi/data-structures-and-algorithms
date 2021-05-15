@@ -357,6 +357,7 @@ https://leetcode.com/problemset/all/
 * `@Test` VerticalOrderTraversalOfABinaryTree
 * `@Test` ValidPalindrome3
 * `@Test` MinimumNumberOfIncrementsOnSubArraysToFormATargetArray
+* `@Test` StoneGame3
 
 ## Package 3: hackerRank
 Kotlin implementation of Hacker Rank interview preparation kit
