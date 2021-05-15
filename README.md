@@ -325,6 +325,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FindTwoNonOverlappingSubArraysEachWithTargetSum
 * `@Test` FlipEquivalentBinaryTrees
 * `@Test` TimeNeededToInformAllEmployees
+* `@Test` StoneGame
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
