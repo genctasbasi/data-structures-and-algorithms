@@ -14,7 +14,32 @@ class Subsets {
         assertEquals(9, result.size)
     }
 
-    fun subsets(nums: IntArray): List<List<Int>> {
+    private fun subsets(nums: IntArray): List<List<Int>> {
+        return rec(nums, 0)
+    }
+
+    private fun rec(nums: IntArray, start: Int): MutableList<MutableList<Int>> {
+
+        if (start > nums.lastIndex)
+            return mutableListOf(mutableListOf())
+
+        val output = mutableListOf(mutableListOf<Int>())
+        nums.forEachIndexed { index, it ->
+            val list = rec(nums, start + index + 1)
+            blend(list, it)
+            output += list
+        }
+
+        return output
+    }
+
+    private fun blend(list: MutableList<MutableList<Int>>, value: Int) {
+        list.forEach {
+            it.add(value)
+        }
+    }
+
+    fun subsets2(nums: IntArray): List<List<Int>> {
         val result = mutableListOf<MutableList<Int>>()
 
         result.add(mutableListOf())

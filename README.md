@@ -181,7 +181,7 @@ https://leetcode.com/problemset/all/
 * `@Test` AddStrings
 * `@Test` AddBinary
 * `@Test` ValidPalindrome
-* `@Test` RangeSumToBST
+* `@Test` RangeSumOfBST
 * `@Test` FirstBadVersion
 * `@Test` ClosestBinarySearchTreeValue
 * `@Test` IntersectionOfTwoArraysII
@@ -326,6 +326,7 @@ https://leetcode.com/problemset/all/
 * `@Test` FlipEquivalentBinaryTrees
 * `@Test` TimeNeededToInformAllEmployees
 * `@Test` StoneGame
+* `@Test` Subsets
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays

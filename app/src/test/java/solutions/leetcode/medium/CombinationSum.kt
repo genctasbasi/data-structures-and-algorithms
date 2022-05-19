@@ -15,13 +15,13 @@ class CombinationSum {
     }
 
     val output = mutableListOf<MutableList<Int>>()
-    fun combinationSum(candidates: IntArray, target: Int): List<List<Int>> {
+    private fun combinationSum(candidates: IntArray, target: Int): List<List<Int>> {
 
         backtracking(candidates, target, 0, mutableListOf())
         return output
     }
 
-    fun backtracking(
+    private fun backtracking(
         candidates: IntArray,
         target: Int,
         sum: Int,
