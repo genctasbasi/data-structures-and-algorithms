@@ -202,6 +202,7 @@ https://leetcode.com/problemset/all/
 * `@Test` SameTree
 * `@Test` MaximumDepthOfBinaryTree
 * `@Test` PathSum
+* `@Test` ValidPerfectSquare
 
 ### Medium problems
 * `@Test` AddTwoNumbers
