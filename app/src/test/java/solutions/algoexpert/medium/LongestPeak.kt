@@ -76,6 +76,8 @@ class LongestPeak {
                         Direction.SAME -> {
                             peakCount = 1
                         }
+
+                        else -> {}
                     }
                 }
             }

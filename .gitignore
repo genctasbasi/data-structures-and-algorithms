@@ -1,0 +1,7 @@
+# Default ignored files
+.gradle/7.5
+.gradle/7.2
+.gradle/6.1.1
+.gradle/checksums
+.gradle/buildoutputcleanup
+.idea
