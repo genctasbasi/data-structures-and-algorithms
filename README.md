@@ -328,6 +328,7 @@ https://leetcode.com/problemset/all/
 * `@Test` TimeNeededToInformAllEmployees
 * `@Test` StoneGame
 * `@Test` Subsets
+* `@Test` RearrangeArrayElementsBySign
 
 ### Hard problems
 * `@Test` MedianOfTwoSortedArrays
@@ -427,3 +428,4 @@ Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` WordDice
 * `@Test` RotationalCipher
 * `@Test` HeapPractice
+* `@Test` FindMissingNumber
