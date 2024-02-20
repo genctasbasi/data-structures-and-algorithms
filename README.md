@@ -429,3 +429,6 @@ Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` RotationalCipher
 * `@Test` HeapPractice
 * `@Test` FindMissingNumber
+* `@Test` IntersectionOfTwoLinkedLists
+* `@Test` LongestCommonSubsequence - [GeeksForGeeks]
+* `@Test` BuildGraph - GeeksForGeeks [GeeksForGeeks]

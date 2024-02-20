@@ -93,7 +93,7 @@ class CycleInGraph {
         return false
     }
 
-    private fun buildGraph(edges: List<List<Int>>, map: java.util.HashMap<Int, MutableSet<Int>>) {
+    private fun buildGraph(edges: List<List<Int>>, map: HashMap<Int, MutableSet<Int>>) {
 
         edges.forEachIndexed { index, list ->
             if (map[index] == null)
