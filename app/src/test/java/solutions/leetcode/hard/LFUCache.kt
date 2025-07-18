@@ -78,7 +78,7 @@ class LFUCache {
          */
         private fun removeLFUItem() {
             val key = map.values.minWith(compareBy({ it.frequency }, { it.counter }))
-            key?.let {
+            key.let {
                 map.remove(it.key)
             }
         }

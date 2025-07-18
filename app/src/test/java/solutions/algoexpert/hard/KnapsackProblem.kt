@@ -60,7 +60,7 @@ class KnapsackProblem {
         assertEquals(Pair(9, listOf(1, 2)), knapsackProblem)
     }
 
-    fun knapsackProblem(items: List<List<Int>>, availableCapacity: Int): Int {
+    private fun knapsackProblem(items: List<List<Int>>, availableCapacity: Int): Int {
 
         if (availableCapacity == 0) return 0
 

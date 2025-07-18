@@ -32,7 +32,6 @@ class LongestCommonSubsequence {
         val agg = Array(min) { -1 }
         var prevAgg = Array(min) { -1 }
 
-
         s1.forEachIndexed { _, char1 ->
             s2.forEachIndexed { index2, char2 ->
 

@@ -83,7 +83,7 @@ class LRUCache {
             }
         }
 
-        fun makeHead(node: Node) {
+        private fun makeHead(node: Node) {
 
             if (head == node) return
 
