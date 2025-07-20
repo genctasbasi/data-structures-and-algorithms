@@ -25,8 +25,8 @@ class ValidPalindrome {
 
         while (pEnd > pStart) {
 
-            val cStart = s[pStart].toLowerCase()
-            val cEnd = s[pEnd].toLowerCase()
+            val cStart = s[pStart].lowercaseChar()
+            val cEnd = s[pEnd].lowercaseChar()
 
             if (!isAlphaNumeric(cStart)) {
                 pStart++

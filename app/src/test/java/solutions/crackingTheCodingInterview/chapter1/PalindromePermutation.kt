@@ -2,6 +2,7 @@ package solutions.crackingTheCodingInterview.chapter1
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
+import java.util.Locale
 
 /**
  * Chapter 1: Arrays and Strings
@@ -37,7 +38,7 @@ class PalindromePermutation {
         var hasOdd = false
         val charCount = mutableMapOf<Char, Int>()
 
-        value.toLowerCase().toCharArray().forEach() {
+        value.lowercase(Locale.getDefault()).toCharArray().forEach() {
             if (it == ' ') return@forEach
             charCount[it] = charCount[it]?.plus(1) ?: 1
         }
