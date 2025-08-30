@@ -432,3 +432,8 @@ Exercises from all other sources ie. GeekForGeeks.com
 * `@Test` IntersectionOfTwoLinkedLists
 * `@Test` LongestCommonSubsequence - [GeeksForGeeks]
 * `@Test` BuildGraph - GeeksForGeeks [GeeksForGeeks]
+
+## Package 6: JoinTaro
+* `@Test` BestTimeToBuyAndSell
+* `@Test` TwoSum
+* `@Test` ValidParenthesis
